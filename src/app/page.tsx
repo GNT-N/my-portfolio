@@ -38,7 +38,7 @@ export default function Home() {
 					Bonjours & Bienvenu ,
 				</h2>
 				<h2 className="text-sm text-zinc-500 ">
-					Moi c'&apos;est Nico & je suis developpeur web full stack spécialisé PHP & Javascript{" "}
+					je suis developpeur web full stack spécialisé PHP & Javascript{" "}
           		</h2>
 			</div>
 		</div>
