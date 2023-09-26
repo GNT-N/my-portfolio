@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { Card } from "../components/card";
+import Particles from "../components/particles";
 import { Navigation } from "../components/nav";
 import { Github, Mail, Gamepad2 } from "lucide-react";
 
@@ -35,6 +36,7 @@ export default function Contact() {
       <Navigation />
       <div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
         <div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
+
           {socials.map((s) => (
             <Card key={s.id}>
               <Link
@@ -60,6 +62,12 @@ export default function Contact() {
               </Link>
             </Card>
           ))}
+
+          <Particles
+            className="absolute inset-0 -z-10 animate-fade-in"
+            quantity={100}
+          />
+          
         </div>
       </div>
     </div>

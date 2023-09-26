@@ -8,7 +8,7 @@ const projects = [
     {
 		id: "Project I",
 		  icon: <Gamepad2 size={20} />,
-		href: "",
+		href: "/projects/la_clunysoise_web",
 		label: "Project I",
 		handle: "Project I",
     },
@@ -74,6 +74,11 @@ export default function skills() {
 						))}
 					</div>
 				</div>
+
+				<Link href="/toto">
+					{/* Le contenu du lien */}
+					<p>Cliquez ici pour accéder à la page</p>
+				</Link>
 
 
 			</div>
