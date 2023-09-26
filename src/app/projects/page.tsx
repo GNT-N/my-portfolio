@@ -1,34 +1,50 @@
 "use client";
+import React from "react";
 import Link from "next/link";
 import { Card } from "../components/card";
 import { Navigation } from "../components/nav";
-import { Github, Mail, Gamepad2 } from "lucide-react";
+import { Gamepad2, Laptop2, Pencil } from "lucide-react";
 
 const projects = [
     {
-		id: "Project I",
-		  icon: <Gamepad2 size={20} />,
+		id: "La Clunysoise Web",
+		  icon: <Laptop2 />,
 		href: "/projects/la_clunysoise_web",
-		label: "Project I",
-		handle: "Project I",
+		label: "Full website development",
+		handle: "La Clunysoise website",
     },
     {
-		id: "Project II",
-		  icon: <Gamepad2 size={20} />,
-		href: "",
-		label: "Project II",
-		handle: "Project II",
+		id: "La Clunysoise Logo",
+		  icon: <Pencil />,
+		href: "/projects/la_clunysoise_logo",
+		label: "Logo design development",
+		handle: "La Clunysoise Logo",
     },
     {
-		id: "Project III",
+		id: "Project X",
 		  icon: <Gamepad2 size={20} />,
 		href: "",
-		label: "Project III",
-		handle: "Project III",
+		label: "Project X",
+		handle: "Project X",
     },
+	{
+		id: "Project X",
+		  icon: <Gamepad2 size={20} />,
+		href: "",
+		label: "Project X",
+		handle: "Project X",
+    },
+
+    // {
+	// 	id: "Project X",
+	// 	  icon: <Gamepad2 size={20} />,
+	// 	href: "",
+	// 	label: "Project X",
+	// 	handle: "Project X",
+    // },
   ];
 
-export default function skills() {
+export default function posts() {
     return (
         <div className="custom-min-height bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
         	<Navigation />
@@ -51,7 +67,7 @@ export default function skills() {
 							<Card key={p.id}>
 								<Link
 								href={p.href}
-								target="_blank"
+								// target="_blank"
 								className="p-4 relative flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-24  lg:pb-48  md:p-16"
 								>
 								<span
@@ -74,12 +90,6 @@ export default function skills() {
 						))}
 					</div>
 				</div>
-
-				<Link href="/toto">
-					{/* Le contenu du lien */}
-					<p>Cliquez ici pour accéder à la page</p>
-				</Link>
-
 
 			</div>
         </div>

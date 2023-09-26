@@ -43,6 +43,7 @@ export default function Home() {
 					PHP / Javascript{" "}
           		</h2>
 			</div>
+
 		</div>
 	);
 }
