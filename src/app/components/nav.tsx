@@ -1,6 +1,6 @@
 "use client";
-import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 import React, { useEffect, useRef, useState } from "react";
 
 export const Navigation: React.FC = () => {
