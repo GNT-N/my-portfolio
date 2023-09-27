@@ -1,23 +1,28 @@
-"use client"
+"use client";
 import './skills.css';
 import { useEffect } from 'react';
 import { Card } from "../components/card";
 import { Navigation } from "../components/nav";
 
-export default function skills() {
-
+export default function Skills() {
     useEffect(() => {
-        const images = document.querySelectorAll('.fade-in');
-
-        images.forEach((image, index) => {
-            setTimeout(() => {
-                image.classList.add('active');
-            }, index * 200);
-        });
+      const images = document.querySelectorAll('.fade-in');
+  
+      images.forEach((image) => {
+        const top = getRandomValue(15, 80); // Modifier ces valeurs selon votre zone souhaitée
+        const left = getRandomValue(0, 90); // Modifier ces valeurs selon votre zone souhaitée
+  
+        image.style.top = `${top}%`;
+        image.style.left = `${left}%`;
+  
+        setTimeout(() => {
+          image.classList.add('active');
+        }, 200);
+      });
     }, []);
-
-    const getRandomValue = (min: number, max: number) =>  {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
+  
+    const getRandomValue = (min: number, max: number) => {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
     };
     
     return (

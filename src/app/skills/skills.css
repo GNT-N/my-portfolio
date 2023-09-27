@@ -8,6 +8,8 @@
     opacity: 1;
 }
 
+
+
 @keyframes randomMove {
     0% {
         transform: translate(0, 0);
