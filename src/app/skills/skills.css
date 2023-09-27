@@ -1,0 +1,18 @@
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    position: absolute;
+}
+
+.fade-in.active {
+    opacity: 1;
+}
+
+@keyframes randomMove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(calc((Math.random() - 0.5) * 100px), calc((Math.random() - 0.5) * 100px));
+    }
+}

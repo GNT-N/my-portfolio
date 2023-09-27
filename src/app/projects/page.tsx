@@ -3,37 +3,39 @@ import React from "react";
 import Link from "next/link";
 import { Card } from "../components/card";
 import { Navigation } from "../components/nav";
-import { Gamepad2, Laptop2, Pencil } from "lucide-react";
+import { Gamepad2, Laptop2, Pencil, ClipboardEdit } from "lucide-react";
 
 const projects = [
     {
 		id: "La Clunysoise Web",
-		  icon: <Laptop2 />,
+		icon: <Laptop2 size={20} />,
 		href: "/projects/la_clunysoise_web",
 		label: "Full website development",
 		handle: "La Clunysoise website",
     },
     {
+		id: "La Clunysoise Admin",
+		icon: <Laptop2 size={20} />,
+		href: "/projects/la_clunysoise_admin",
+		label: "admin interface development",
+		handle: "La Clunysoise admin interface",
+    },
+	{
 		id: "La Clunysoise Logo",
-		  icon: <Pencil />,
+		icon: <Pencil size={20} />,
 		href: "/projects/la_clunysoise_logo",
 		label: "Logo design development",
 		handle: "La Clunysoise Logo",
-    },
-    {
-		id: "Project X",
-		  icon: <Gamepad2 size={20} />,
-		href: "",
-		label: "Project X",
-		handle: "Project X",
-    },
+	},
 	{
-		id: "Project X",
-		  icon: <Gamepad2 size={20} />,
-		href: "",
-		label: "Project X",
-		handle: "Project X",
-    },
+		id: "La Clunysoise Lead",
+		icon: <ClipboardEdit size={20} />,
+		href: "/projects/la_clunysoise_logo",
+		label: "Lead project",
+		handle: "La Clunysoise Lead",
+	},
+
+
 
     // {
 	// 	id: "Project X",
@@ -46,11 +48,11 @@ const projects = [
 
 export default function posts() {
     return (
-        <div className="custom-min-height bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
+        <div className="custom-min-height bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 text-center">
         	<Navigation />
 			<div className="px-6 pt-16 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
 				
-				<div className="max-w-2xl mx-auto lg:mx-0">
+				<div className="mx-auto lg:mx-0">
 					<h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
 						Projects
 					</h2>
@@ -90,6 +92,9 @@ export default function posts() {
 						))}
 					</div>
 				</div>
+
+				<div className="w-full h-px bg-zinc-800" />
+				<div className="w-full h-px bg-zinc-800" />
 
 			</div>
         </div>
