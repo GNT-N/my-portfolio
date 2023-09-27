@@ -5,7 +5,7 @@ import { Card } from "../components/card";
 import { Navigation } from "../components/nav";
 
 export default function Skills() {
-    const getRandomValue = (min, max, size) => {
+    const getRandomValue = (min: number, max: number, size: number) => {
         return Math.max(min, Math.min(max - size, Math.floor(Math.random() * (max - size - min + 1)) + min));
     };
 

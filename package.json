@@ -35,6 +35,7 @@
     "@tailwindcss/line-clamp": "^0.4.2",
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.13",
+    "eslint": "^8.50.0",
     "postcss": "^8.4.21",
     "postcss-nesting": "^11.2.2",
     "rome": "^11.0.0",
