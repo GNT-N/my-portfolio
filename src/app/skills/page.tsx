@@ -6,14 +6,16 @@ import { Navigation } from "../components/nav";
 
 export default function Skills() {
     useEffect(() => {
-      const images = document.querySelectorAll('.fade-in');
+      const images = document.querySelectorAll<HTMLImageElement>('.fade-in');
   
       images.forEach((image) => {
-        const top = getRandomValue(15, 80); // Modifier ces valeurs selon votre zone souhaitée
-        const left = getRandomValue(0, 90); // Modifier ces valeurs selon votre zone souhaitée
+        const top = getRandomValue(15, 85); // Modifier ces valeurs selon votre zone souhaitée
+        const left = getRandomValue(0, 93); // Modifier ces valeurs selon votre zone souhaitée
   
-        image.style.top = `${top}%`;
-        image.style.left = `${left}%`;
+        if (image.style) {
+          image.style.top = `${top}%`;
+          image.style.left = `${left}%`;
+        }
   
         setTimeout(() => {
           image.classList.add('active');

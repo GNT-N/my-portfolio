@@ -8,7 +8,16 @@
     opacity: 1;
 }
 
-
+.position-top-left {
+    top: 10%;
+    left: 10%;
+  }
+  
+  .position-top-right {
+    top: 10%;
+    left: 50%;
+  }
+  
 
 @keyframes randomMove {
     0% {
