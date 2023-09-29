@@ -53,7 +53,7 @@ export default function posts() {
 			<div className="px-6 pt-16 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
 				
 				<div className="mx-auto lg:mx-0">
-					<h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
+					<h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl mt-5">
 						Projects
 					</h2>
 					<p className="mt-4 text-zinc-400">
@@ -64,12 +64,11 @@ export default function posts() {
 				<div className="w-full h-px bg-zinc-800" />
 
 				<div className="container flex items-center justify-center px-4 mx-auto">
-					<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-2 lg:gap-16">
+					<div className="grid w-full grid-cols-1 gap-8 mx-auto sm:mt-0 sm:grid-cols-2 lg:gap-16">
 						{projects.map((p) => (
 							<Card key={p.id}>
 								<Link
 								href={p.href}
-								// target="_blank"
 								className="p-4 relative flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-24  lg:pb-48  md:p-16"
 								>
 								<span

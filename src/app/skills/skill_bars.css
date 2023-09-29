@@ -1,0 +1,31 @@
+.skillbar {
+    margin-bottom: 20px;
+  }
+  
+  .skillbar-title {
+    padding: 10px;
+    color: white;
+    text-align: left;
+    border-radius: 10px;
+  }
+  
+  .skillbar-bar {
+    width: 0;
+    height: 40px;
+    background-color: #ccc;
+    position: relative;
+    transition: width 1s;
+    border-radius: 10px;
+  }
+  
+  .skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+  }
+  
+  .skillbar-clearfix {
+    margin: 15px;
+  }
