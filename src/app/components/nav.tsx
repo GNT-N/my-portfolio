@@ -34,20 +34,33 @@ export const Navigation: React.FC = () => {
 						>
 							Projects
 						</Link>
-						
+						<Link
+							href="/profil"
+							className="duration-200 text-zinc-400 hover:text-zinc-100"
+						>
+							Profil
+						</Link>
 						<Link
 							href="/skills"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
 							Skills
 						</Link>
-
 						<Link
 							href="/contact"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
 							Contact
 						</Link>
+
+						<select className="duration-200 text-zinc-400 hover:text-zinc-100 rounded bg-transparent"
+								name="" 
+								id="">
+							<option className="bg-black" value="">EN</option>
+							<option className="bg-black"value="">FR</option>
+							<option className="bg-black"value="">VN</option>
+						</select>
+
 					</div>
 
 					<Link
