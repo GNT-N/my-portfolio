@@ -104,7 +104,7 @@ const logos = [
 
                 <section>
                     <div
-                    className="absolute w-2/6 h-auto rounded-xl skillbars"
+                    className="absolute w-2/6 h-auto rounded-xl skillbars mt-10"
                     style={{
                         top: '40%',
                         left: '50%',
