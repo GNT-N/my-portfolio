@@ -21,7 +21,7 @@
 
 }
 
-@media (max-height: 315px) {
+@media (max-height: 480px) {
 
   .logo {
     display: none;
