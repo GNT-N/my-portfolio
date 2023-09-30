@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Navigation } from "../../components/nav";
 import Login_1 from "../../../../public/la_clunysoise/admin/login1.png";
 import Login_2 from "../../../../public/la_clunysoise/admin/login2.png";
-import Interface from "../../../../public/la_clunysoise/admin/Interface.png";
+import Interface from "../../../../public/la_clunysoise/admin/interface.png";
 
 export default function posts() {
     return (
