@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 import { Navigation } from "../../components/nav";
+import Home from "../../../../public/la_clunysoise/website/Home.png";
 
 export default function posts() {
     return (
@@ -33,11 +35,19 @@ export default function posts() {
 
 				<div className="w-full h-px bg-zinc-800" />
 
-				<div className="container flex items-center justify-center px-4 mx-auto">
-					<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-2 lg:gap-16">
-
-					</div>
+				<div className="grid w-full grid-cols-1 gap-8 mx-auto sm:mt-0 sm:grid-cols-1 lg:gap-16">
+					<Image
+						src={Home}
+						alt="Login Screen"
+						height={800}
+						width={1200}
+						className="rounded-xl"
+					/>
 				</div>
+
+                <div className="w-full h-px bg-zinc-800" />
+
+                <div className="w-full h-px" />
 
 			</div>
         </div>
