@@ -3,9 +3,45 @@ import React from "react";
 import Link from "next/link";
 import Particles from "./components/particles";
 
+import i18next from "i18next";
+import { initReactI18next } from "react-i18next";
+
+i18next.use(initReactI18next)
+	.init({
+		resources: {
+			en : {
+				translation: {
+					Projects: 'Projects',
+					Profile: 'Profile',
+					Skills: 'Skills',
+					Contact: 'Contact',
+				}
+			},
+			fr : {
+				translation: {
+					Projects: 'Projets',
+					Profile: 'Profil',
+					Skills: 'Compétences',
+					Contact: 'Contact',
+				}
+			},
+			vn : {
+				translation: {
+					Projects: 'Dự án',
+					Profile: 'Hồ sơ',
+					Skills: 'Kỹ năng',
+					Contact: 'Liên hệ',
+				}
+			}
+		},
+		lng: 'en',
+		fallbackLng: 'en',
+	})
+
+
 const navigation = [
 	{ name: "Projects", href: "/projects" },
-	{ name: "Profil", href: "/profil" },
+	{ name: "Profile", href: "/profile" },
 	{ name: "Skills", href: "/skills" },
 	{ name: "Contact", href: "/contact" },
 ];

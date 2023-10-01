@@ -3,6 +3,10 @@ import React from "react";
 import Image from "next/image";
 import { Navigation } from "../../components/nav";
 import Home from "../../../../public/la_clunysoise/website/Home.png";
+import Actus from "../../../../public/la_clunysoise/website/Actus.png";
+import Form1 from "../../../../public/la_clunysoise/website/Form1.png";
+import Time from "../../../../public/la_clunysoise/website/Form_clock.png";
+import Date from "../../../../public/la_clunysoise/website/Form_date.png";
 
 export default function posts() {
     return (
@@ -34,7 +38,6 @@ export default function posts() {
 				</div>
 
 				<div className="w-full h-px bg-zinc-800" />
-
 				<div className="grid w-full grid-cols-1 gap-8 mx-auto sm:mt-0 sm:grid-cols-1 lg:gap-16">
 					<Image
 						src={Home}
@@ -44,7 +47,43 @@ export default function posts() {
 						className="rounded-xl"
 					/>
 				</div>
-
+                <div className="w-full h-px bg-zinc-800" />
+                <div className="justify-center w-full gap-8 sm:mt-0 lg:gap-16 flex">
+					<Image
+						src={Actus}
+						alt="Login Screen"
+						height={800}
+						width={800}
+						className="rounded-xl"
+					/>
+				</div>
+                <div className="w-full h-px bg-zinc-800" />
+				<div className="justify-center w-full gap-8 sm:mt-0 lg:gap-16 flex">
+					<Image
+						src={Form1}
+						alt="Login Screen"
+						height={800}
+						width={800}
+						className="rounded-xl"
+					/>
+				</div>
+					<div className="justify-center w-full gap-8 sm:mt-0 lg:gap-16 flex">
+					<Image
+						src={Date}
+						alt="Login Screen"
+						height={800}
+						width={300}
+						className="rounded-xl"
+					/>
+					<Image
+						src={Time}
+						alt="Login Screen"
+						height={800}
+						width={300}
+						className="rounded-xl"
+					/>
+					</div>
+				
                 <div className="w-full h-px bg-zinc-800" />
 
                 <div className="w-full h-px" />

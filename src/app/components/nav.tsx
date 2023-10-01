@@ -3,7 +3,17 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import React, { useEffect, useRef, useState } from "react";
 
+import i18next from "i18next";
+import { initReactI18next, useTranslation } from "react-i18next";
+
 export const Navigation: React.FC = () => {
+
+	const { t, i18n } = useTranslation();
+
+	function handleLangChange(event: any) {
+		i18n.changeLanguage(event.target.value)
+	}
+
 	const ref = useRef<HTMLElement>(null);
 	const [isIntersecting, setIntersecting] = useState(true);
 
@@ -27,38 +37,39 @@ export const Navigation: React.FC = () => {
 				}`}
 			>
 				<div className="container flex flex-row-reverse items-center justify-between p-6 mx-auto">
-					<div className="flex justify-between gap-8">
+					<div className="flex justify-between gap-4">
 						<Link
 							href="/projects"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
-							Projects
+							{t('Projects')}
 						</Link>
 						<Link
-							href="/profil"
+							href="/profile"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
-							Profil
+							{t('Profile')}
 						</Link>
 						<Link
 							href="/skills"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
-							Skills
+							{t('Skills')}
 						</Link>
 						<Link
 							href="/contact"
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
-							Contact
+							{t('Contact')}
 						</Link>
 
-						<select className="duration-200 text-zinc-400 hover:text-zinc-100 rounded bg-transparent"
-								name="" 
-								id="">
-							<option className="bg-black" value="">EN</option>
-							<option className="bg-black"value="">FR</option>
-							<option className="bg-black"value="">VN</option>
+						<select  
+							className="text-zinc-400 hover:text-zinc-100 rounded bg-transparent"
+							onChange={handleLangChange}
+						>
+							<option className="bg-black" value="en" selected>EN</option>
+							<option className="bg-black"value="fr">FR</option>
+							<option className="bg-black"value="vn">VN</option>
 						</select>
 
 					</div>
