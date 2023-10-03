@@ -1,0 +1,13 @@
+{
+    "menu": {
+        "Profile": "Profil",
+        "Projects": "Projets",
+        "Skills": "Compétences",
+        "Contact": "Contact"
+    },
+
+    "projects": {
+        "Title": "Projets",
+        "Description": "Certains de mes projets réalisés dans le cadre de mon travail et d'autres pendant mon temps libre."
+    }
+}

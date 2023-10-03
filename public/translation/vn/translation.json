@@ -1,0 +1,13 @@
+{
+    "menu": {
+        "Profile": "Hồ sơ",
+        "Projects": "Dự án",
+        "Skills": "Kỹ năng",
+        "Contact": "Liên hệ"
+    },
+    
+    "projects": {
+        "Title": "Dự án",
+        "Description": "Một số dự án của tôi được thực hiện như một phần công việc của tôi và những dự án khác được thực hiện trong thời gian rảnh rỗi."
+    }
+}

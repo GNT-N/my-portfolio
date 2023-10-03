@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { Card } from "../components/card";
 import { Navigation } from "../components/nav";
+import { initReactI18next, useTranslation } from "react-i18next";
 import { Gamepad2, Laptop2, Pencil, ClipboardEdit } from "lucide-react";
 
 const projects = [
@@ -34,19 +35,12 @@ const projects = [
 		label: "Lead project",
 		handle: "La Clunysoise Lead",
 	},
-
-
-
-    // {
-	// 	id: "Project X",
-	// 	  icon: <Gamepad2 size={20} />,
-	// 	href: "",
-	// 	label: "Project X",
-	// 	handle: "Project X",
-    // },
   ];
 
 export default function posts() {
+
+	const { t } = useTranslation('en');
+
     return (
         <div className="custom-min-height bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 text-center">
         	<Navigation />
@@ -54,10 +48,10 @@ export default function posts() {
 				
 				<div className="mx-auto lg:mx-0">
 					<h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl mt-5">
-						Projects
+						{t('projects.Title')}
 					</h2>
 					<p className="mt-4 text-zinc-400">
-						Some of the projects are from work and some are on my own time.
+						{t('projects.Description')}
 					</p>
 				</div>
 
