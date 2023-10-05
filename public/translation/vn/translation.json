@@ -9,6 +9,10 @@
     "home": {
         "Description" : "Nhà phát triển web toàn diện"
     },
+
+    "profile": {
+        "Description" : "Nhà phát triển web full stack mới tốt nghiệp, hãy để tôi đưa bạn vào thế giới của tôi. <br/><br/>Ở tuổi 31, tôi luôn bị mê hoặc bởi máy tính và các công nghệ mới. Ngay từ khi còn nhỏ, tôi đã thích khám phá cấu hình PC của mình để không ngừng cải thiện hiệu suất của nó hoặc tìm và khai thác các lỗ hổng bảo mật trong nhiều phần mềm hoặc trò chơi điện tử khác nhau, luôn với mục tiêu tìm hiểu thêm. <br/><br/>Là một nhân viên y tế chuyên cấp cứu với 10 năm kinh nghiệm ở một số vùng của Pháp như vùng núi cao, thủ đô Lyon hay miền nam nước Pháp, tôi quyết định chuyển đổi chuyên nghiệp. <br/><br/>Hiện là nhà phát triển web toàn diện và web di động, tôi cung cấp cho bạn kinh nghiệm, kỹ năng và phẩm chất của tôi để tạo các dự án của bạn."
+    },
     
     "projects": {
         "Title": "Dự án",

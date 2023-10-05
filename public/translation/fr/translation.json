@@ -10,6 +10,10 @@
         "Description" : "Développeur web full stack"
     },
 
+    "profile": {
+        "Description" : "Développeur web full stack nouvellement diplômé, laissez-moi vous emmener dans mon univers. <br/><br/>Âgé de 31 ans, j'ai toujours été fasciné par l'informatique et les nouvelles technologies. Dès mon plus jeune âge, j'adorais déjà explorer la configuration de mon PC pour améliorer constamment ses performances ou trouver et exploiter des failles de sécurité dans divers logiciels ou jeux vidéo, toujours dans le but d'en apprendre davantage. <br/><br/>Ambulancier spécialisé dans l'urgence de 10 ans d'expérience dans plusieurs régions de France comme la haute montagne, la métropole de Lyon ou le sud de la France, j'ai décidé de faire une transition professionnelle. <br/><br/>Désormais développeur full stack web & web mobile, je vous propose mon expérience, mes compétences ainsi que mes qualités pour la création de vos projets."
+    },
+
     "projects": {
         "Title": "Projets",
         "Description": "Certains de mes projets réalisés dans le cadre de mon travail et d'autres pendant mon temps libre.",

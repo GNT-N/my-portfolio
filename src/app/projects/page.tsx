@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { Card } from "../components/card";
 import { Navigation } from "../components/nav";
-import { initReactI18next, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { Gamepad2, Laptop2, Pencil, ClipboardEdit } from "lucide-react";
 import projectsData from "../projects/projects.json";
 

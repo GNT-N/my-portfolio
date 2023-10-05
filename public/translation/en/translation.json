@@ -10,6 +10,10 @@
         "Description" : "Developer web full stack"
     },
 
+    "profile": {
+        "Description" : "Newly graduated full stack web developer, let me take you into my world. <br/><br/>Aged 31, I have always been fascinated by computers and new technologies. From a young age, I already loved exploring the configuration of my PC to constantly improve its performance or find and exploit security vulnerabilities in various software or video games, always with the goal of learning more. <br/><br/>A paramedic specializing in emergencies with 10 years of experience in several regions of France such as the high mountains, the metropolis of Lyon or the south of France, I decided to make a professional transition. <br/><br/>Now a full stack web & mobile web developer, I offer you my experience, my skills & qualities for the creation of your projects."
+    },
+
     "projects": {
         "Title": "Projects",
         "Description": "Some of my projects done as part of work and others during my free time.",
