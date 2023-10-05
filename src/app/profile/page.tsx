@@ -14,8 +14,12 @@ export default function posts() {
 			<div className="w-full text-center mx-auto">
 				<p>
 					Développeur web full stack fraichement diplômé , laisser moi vous embarquer dans mon univers. <br/><br/>
-					Agé de 31 ans j'ai toujour été pationné par l'informatique et les nouvelles technologies. Dès mon plus jeune âge j'aimais déja explorer la config de mon pc dans le but d'améliorer ces performances en permanance ou trouver et exploiter les failles de sécurité de divers logiciels ou jeux video pour toujours en apprendre plus. <br/><br/> 
-					Ambulancier de 10 ans d'experience dans plusieur régions de france comme la haute montagne l'agglomération lyonnaise ou encore le sud de la france , j'ai décider d'effectuer une transition proféssionelle. Après l'obtention de mon diplôme de Développeur web & web mobile full stack me voila devant vos yeux ébaillis.
+
+					Agé de 31 ans j'ai toujour été pationné par l'informatique et les nouvelles technologies. Dès mon plus jeune âge j'aimais déja explorer la configuration de mon pc pour améliorer ces performances en permanance ou trouver et exploiter les failles de sécurité de divers logiciels ou jeux video toujours dans le but d'en apprendre plus. <br/><br/> 
+
+					Ambulancier spécialisé dans l'ugence de 10 ans d'expérience dans plusieur régions de france comme la haute montagne l'agglomération lyonnaise ou encore le sud de la france , j'ai décider d'effectuer une transition proféssionelle. <br/><br/>
+
+					
 				</p>
 			</div>
 			<div className="w-full h-px bg-zinc-800" />
