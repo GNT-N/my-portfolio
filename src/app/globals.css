@@ -25,7 +25,3 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
-.custom-min-height {
-  min-height: 100vh;
-}

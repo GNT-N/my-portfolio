@@ -6,8 +6,28 @@
         "Contact": "Contact"
     },
 
+    "home": {
+        "Description" : "Développeur web full stack"
+    },
+
     "projects": {
         "Title": "Projets",
-        "Description": "Certains de mes projets réalisés dans le cadre de mon travail et d'autres pendant mon temps libre."
+        "Description": "Certains de mes projets réalisés dans le cadre de mon travail et d'autres pendant mon temps libre.",
+        "La_Clunysoises_website": {
+            "Title": "",
+            "Description": ""
+        },
+        "La_Clunysoises_admin": {
+            "Title": "",
+            "Description": ""
+        },
+        "La_Clunysoises_logo": {
+            "Title": "",
+            "Description": ""
+        },
+        "La_Clunysoises_lead" : {
+            "Title": "",
+            "Description": ""
+        }
     }
 }

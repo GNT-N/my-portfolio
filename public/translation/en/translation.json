@@ -6,8 +6,28 @@
         "Contact": "Contact"
     },
 
+    "home": {
+        "Description" : "Developer web full stack"
+    },
+
     "projects": {
         "Title": "Projects",
-        "Description": "Some of my projects done as part of work and others during my free time."
+        "Description": "Some of my projects done as part of work and others during my free time.",
+        "La_Clunysoises_website": {
+            "Title": "",
+            "Description": ""
+        },
+        "La_Clunysoises_admin": {
+            "Title": "",
+            "Description": ""
+        },
+        "La_Clunysoises_logo": {
+            "Title": "",
+            "Description": ""
+        },
+        "La_Clunysoises_lead" : {
+            "Title": "",
+            "Description": ""
+        }
     }
 }

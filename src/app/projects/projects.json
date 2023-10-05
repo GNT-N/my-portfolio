@@ -1,0 +1,30 @@
+[
+    {
+        "id": "La Clunysoise Web",
+        "icon": "Laptop2",
+        "href": "/projects/la_clunysoise_web",
+        "label": "Full website development",
+        "handle": "La Clunysoise website"
+    },
+    {
+        "id": "La Clunysoise Admin",
+        "icon": "Laptop2",
+        "href": "/projects/la_clunysoise_admin",
+        "label": "Admin interface development",
+        "handle": "La Clunysoise admin interface"
+    },
+    {
+        "id": "La Clunysoise Logo",
+        "icon": "Pencil",
+        "href": "/projects/la_clunysoise_logo",
+        "label": "Logo design development",
+        "handle": "La Clunysoise logo"
+    },
+    {
+        "id": "La Clunysoise Lead",
+        "icon": "ClipboardEdit",
+        "href": "/projects/la_clunysoise_lead",
+        "label": "project management",
+        "handle": "La Clunysoise full support"
+    }
+]

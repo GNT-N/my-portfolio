@@ -16,19 +16,18 @@ const Skill_Bars: React.FC<{ competences: skill_bars[] }> = ({ competences }) =>
   }, [competences]);
 
   return (
+    
     <div>
       {competences.map((competence, index) => (
-        <div className="skillbar-clearfix" key={index}>
+        <div className="skillbar-container" key={index}>
           <div
             className="skillbar-bar"
             style={{ background: competence.couleur, width: barWidths[index] }}
           >
-            <div className="skillbar-content">
               <div className="skillbar-title" style={{ background: competence.couleur }}>
                 <span>{competence.label}</span>
               </div>
               <div className="skill-bar-percent">{competence.pourcentage}</div>
-            </div>
           </div>
         </div>
       ))}

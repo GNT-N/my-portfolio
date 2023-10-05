@@ -1,5 +1,5 @@
 "use client";
-import './skill.css';
+import './skill_logos.css';
 import React from "react";
 import Skill_Bars from "./skill_bars";
 import { useEffect, useState } from 'react';
@@ -123,7 +123,7 @@ const logos = [
                 {logos.map((logo, index) => (
                     <img
                         key={index}
-                        src={`/${logo}.svg`}
+                        src={`logos/${logo}.svg`}
                         alt={`Logo ${logo}`}
                         className="fade-in logo"
                         style={{

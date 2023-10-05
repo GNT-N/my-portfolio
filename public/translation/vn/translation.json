@@ -5,9 +5,29 @@
         "Skills": "Kỹ năng",
         "Contact": "Liên hệ"
     },
+
+    "home": {
+        "Description" : "Nhà phát triển web toàn diện"
+    },
     
     "projects": {
         "Title": "Dự án",
-        "Description": "Một số dự án của tôi được thực hiện như một phần công việc của tôi và những dự án khác được thực hiện trong thời gian rảnh rỗi."
+        "Description": "Một số dự án của tôi được thực hiện như một phần công việc của tôi và những dự án khác được thực hiện trong thời gian rảnh rỗi.",
+        "La_Clunysoises_website": {
+            "Title": "",
+            "Description": ""
+        },
+        "La_Clunysoises_admin": {
+            "Title": "",
+            "Description": ""
+        },
+        "La_Clunysoises_logo": {
+            "Title": "",
+            "Description": ""
+        },
+        "La_Clunysoises_lead" : {
+            "Title": "",
+            "Description": ""
+        }
     }
 }

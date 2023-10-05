@@ -5,82 +5,114 @@ import { Navigation } from "../../components/nav";
 import Home from "../../../../public/la_clunysoise/website/Home.png";
 import Actus from "../../../../public/la_clunysoise/website/Actus.png";
 import Form1 from "../../../../public/la_clunysoise/website/Form1.png";
-import Time from "../../../../public/la_clunysoise/website/Form_clock.png";
-import Date from "../../../../public/la_clunysoise/website/Form_date.png";
+import Form_Time from "../../../../public/la_clunysoise/website/Form_clock.png";
+import Form_Date from "../../../../public/la_clunysoise/website/Form_date.png";
+
+const logos = [
+    'html5',
+    'css3',
+    'javascript',
+    'php',
+	'sql',
+    'twig',
+    'bootstrap',
+    'symfony',
+    'laragon',
+    'github',
+];
+
+
 
 export default function posts() {
     return (
-        <div className="custom-min-height bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
+        <div className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
         	<Navigation />
 			<div className="px-6 pt-16 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32 ">
 				
-				<div className="max-w-2xl mx-auto lg:mx-0">
+				<div className="mx-auto lg:mx-0">
 					<h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl mt-5">
 						La Clunysoise Website.
 					</h2>
 					<p className="mt-4 text-zinc-400">
                         Complete website development for a private ambulance company. The website includes several features such as appointment scheduling, contact form, location details, and phone/email contact information.Development carried out using various technologies.
                     </p>
-                    <p className="mt-4 text-zinc-400">
-                        Language :
+                    <p className="mt-4 text-zinc-400 text-center">
+						Technology :
                         - HTML5
                         - CSS3
                         - JavaScript
-                        - SQL
                         - PHP
-                    </p>
-                    <p className="mt-4 text-zinc-400">
-                        Frameworks :
+                        - SQL
+						- Twig
                         - Bootstrap
-                        - jQuery
                         - Symfony 6
+						- Laragon
+						- Github
 					</p>
 				</div>
 
 				<div className="w-full h-px bg-zinc-800" />
-				<div className="grid w-full grid-cols-1 gap-8 mx-auto sm:mt-0 sm:grid-cols-1 lg:gap-16">
+				<section className="mx-auto text-center">
+					<div className="inline-grid grid-cols-10 mt-0 gap-10">
+						{logos.map((logo, index) => (
+						<img
+							key={index}
+							src={`/logos/${logo}.svg`}
+							alt={`Logo ${logo}`}
+							className="w-10 h-10 inline-block"
+						/>
+						))}
+					</div>
+				</section>
+				<div className="w-full h-px bg-zinc-800" />
+
+				<div className="justify-center w-full gap-8 sm:mt-0 lg:gap-16 flex">
 					<Image
 						src={Home}
 						alt="Login Screen"
-						height={800}
-						width={1200}
-						className="rounded-xl"
+						className="rounded-xl "
+						width={400}
+						height={400}
 					/>
 				</div>
                 <div className="w-full h-px bg-zinc-800" />
                 <div className="justify-center w-full gap-8 sm:mt-0 lg:gap-16 flex">
+
 					<Image
 						src={Actus}
-						alt="Login Screen"
-						height={800}
-						width={800}
+						alt="Actus screen"
 						className="rounded-xl"
+						width={400}
+						height={400}
 					/>
+
 				</div>
                 <div className="w-full h-px bg-zinc-800" />
 				<div className="justify-center w-full gap-8 sm:mt-0 lg:gap-16 flex">
 					<Image
 						src={Form1}
-						alt="Login Screen"
-						height={800}
-						width={800}
+						alt="Form screen"
 						className="rounded-xl"
+						width={400}
+						height={400}
 					/>
 				</div>
 					<div className="justify-center w-full gap-8 sm:mt-0 lg:gap-16 flex">
 					<Image
-						src={Date}
-						alt="Login Screen"
-						height={800}
-						width={300}
-						className="rounded-xl"
+						src={Form_Date}
+						alt="Selected date screen"
+						className="rounded-xl hover:scale-125  
+						duration-150 ease-in-out"
+						width={400}
+						height={400}
 					/>
 					<Image
-						src={Time}
-						alt="Login Screen"
-						height={800}
-						width={300}
-						className="rounded-xl"
+						src={Form_Time}
+						alt="Selected time screen"
+						className="rounded-xl hover:scale-125  
+						duration-150 ease-in-out"
+						width={400}
+						height={400}
 					/>
 					</div>
 				

@@ -26,6 +26,48 @@
     color: white;
   }
   
-  .skillbar-clearfix {
+  .skillbar-container {
     margin: 15px;
+  }
+
+  @media (max-width: 768px) {
+  
+    .skillbars {
+      width: 80%;
+      margin-top: 5rem;
+    }
+  
+  }
+
+  @media (max-height: 480px) {
+  
+    .skillbars {
+      width: 60%;
+      height: 50%;
+    }
+  
+    .skillbar-title {
+      margin-bottom: 30px!important;
+      padding: 0px!important;
+      height: 5px!important;
+    }
+  
+    .skillbar-bar {
+      margin-top: 5px!important;
+      width: 0;
+      height: auto;
+    }
+    
+    .skill-bar-percent {
+      margin-top: 5px!important;
+      height: 5px!important;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+    }
+   
+    .skillbar-clearfix {
+      margin: 5px;
+    }
+  
   }

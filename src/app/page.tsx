@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import i18next from "i18next";
+import i18n from "i18next";
 import Backend from "i18next-http-backend";
 import Particles from "./components/particles";
 import { initReactI18next, useTranslation } from "react-i18next";
 
 
-i18next.use(initReactI18next)
+i18n.use(initReactI18next)
 	.use(Backend)
 	.init({
 		backend: {
@@ -26,7 +26,7 @@ const navigation = [
 
 export default function Home() {
 
-	const { t } = useTranslation('en');
+	const { t } = useTranslation('en', { useSuspense: false }); 
 	
 	return (
 		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black ">
@@ -36,7 +36,7 @@ export default function Home() {
 						<Link
 							key={item.href}
 							href={item.href}
-							className="text-2xl duration-500 text-zinc-500 hover:text-zinc-300"
+							className="text-xl duration-500 text-zinc-500 hover:text-zinc-300"
 						>
 							{t(`menu.${item.name}`)}
 						</Link>
@@ -55,10 +55,10 @@ export default function Home() {
 
 			<div className="hidden animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
-				<h2 className="text-xl text-zinc-500 ">
-					Developer web full stack
+				<h2 className="text-lg text-zinc-500 ">
+					{t('home.Description')}
 				</h2>
-				<h2 className="text-xl text-zinc-500 ">
+				<h2 className="text-lg text-zinc-500 ">
 					PHP / Javascript{" "}
           		</h2>
 			</div>
