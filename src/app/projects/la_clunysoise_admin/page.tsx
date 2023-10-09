@@ -66,7 +66,6 @@ export default function posts() {
 					<Image
 						src={Interface}
 						alt="Login Screen"
-						height={800}
 						width={1200}
 						className="rounded-xl"
 					/>
@@ -78,7 +77,7 @@ export default function posts() {
 					<Image
 						src={Login_1}
 						alt="Login Screen"
-						width={500}
+						width={400}
 						className="rounded-xl"
 					/>
 					<p className="mt-4 text-zinc-400 text-center">
@@ -87,8 +86,7 @@ export default function posts() {
 					<Image
 						src={Login_2}
 						alt="Login Screen"
-						width={900}
-						height={1000}
+						width={400}
 						className="rounded-xl"
 					/>
 					</div>
