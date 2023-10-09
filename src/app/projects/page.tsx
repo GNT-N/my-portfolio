@@ -3,9 +3,9 @@ import React from "react";
 import Link from "next/link";
 import { Card } from "../components/card";
 import { Navigation } from "../components/nav";
-import { useTranslation } from "react-i18next";
-import { Gamepad2, Laptop2, Pencil, ClipboardEdit } from "lucide-react";
+import { initReactI18next, useTranslation } from "react-i18next";
 import projectsData from "../projects/projects.json";
+import { Gamepad2, Laptop2, Pencil, ClipboardEdit } from "lucide-react";
 
 export default function posts() {
   const { t } = useTranslation("en");

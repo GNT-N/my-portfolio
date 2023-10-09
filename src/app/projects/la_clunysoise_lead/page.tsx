@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { Navigation } from "../../components/nav";
-import Trello from "../../../../public/la_clunysoise/Lead/Trello.png";
+import Trello from "../../../../public/la_clunysoise/lead/Trello.png";
 
 const logos = ["vercel", "github", "trello", "google-drive", "google-meet"];
 

@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { Navigation } from "../../components/nav";
+import { initReactI18next, useTranslation } from "react-i18next";
 import Home from "../../../../public/la_clunysoise/website/Home.png";
 import Actus from "../../../../public/la_clunysoise/website/Actus.png";
 import Form1 from "../../../../public/la_clunysoise/website/Form1.png";
@@ -23,24 +24,30 @@ const logos = [
 ];
 
 export default function posts() {
+  const { t } = useTranslation("en");
+  const projectsLa_Clunysoise_websiteTitleHTML = {
+    __html: t("projects.La_Clunysoises_website.Title"),
+  };
+  const projectsLa_Clunysoise_websiteDescriptionHTML = {
+    __html: t("projects.La_Clunysoises_website.Description"),
+  };
   return (
     <div className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
       <Navigation />
       <div className="px-6 pt-16 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32 ">
         <div className="mx-auto lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl mt-5">
-            La Clunysoise Website.
+            <p
+              className="mt-4 text-zinc-400"
+              dangerouslySetInnerHTML={projectsLa_Clunysoise_websiteTitleHTML}
+            />
           </h2>
-          <p className="mt-4 text-zinc-400">
-            Complete website development for a private ambulance company. The
-            website includes several features such as appointment scheduling,
-            contact form, location details, and phone/email contact
-            information.Development carried out using various technologies.
-          </p>
-          <p className="mt-4 text-zinc-400 text-center">
-            Technology : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig -
-            Bootstrap - Symfony 6 - Laragon - Github
-          </p>
+          <p
+            className="mt-4 text-zinc-400"
+            dangerouslySetInnerHTML={
+              projectsLa_Clunysoise_websiteDescriptionHTML
+            }
+          />
         </div>
 
         <div className="w-full h-px bg-zinc-800" />
