@@ -1,18 +1,11 @@
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import LanguageDropDown from "../components/LanguageDropDown";
 import React, { useEffect, useRef, useState } from "react";
-import { initReactI18next, useTranslation } from "react-i18next";
 
 export const Navigation: React.FC = () => {
-  const { t, i18n } = useTranslation();
-  const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
-
-  function handleLangChange(event: any) {
-    const selectedLang = event.target.value;
-    i18n.changeLanguage(selectedLang);
-    setSelectedLanguage(selectedLang);
-  }
-
+  const { t } = useTranslation();
   const ref = useRef<HTMLElement>(null);
   const [isIntersecting, setIntersecting] = useState(true);
 
@@ -62,21 +55,7 @@ export const Navigation: React.FC = () => {
               {t("menu.Contact")}
             </Link>
 
-            <select
-              className="text-zinc-400 hover:text-zinc-100 rounded bg-transparent"
-              onChange={handleLangChange}
-              value={selectedLanguage}
-            >
-              <option className="bg-black" value="en">
-                En
-              </option>
-              <option className="bg-black" value="fr">
-                Fr
-              </option>
-              <option className="bg-black" value="vn">
-                Vn
-              </option>
-            </select>
+            <LanguageDropDown />
           </div>
 
           <Link

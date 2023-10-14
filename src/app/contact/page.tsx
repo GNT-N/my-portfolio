@@ -6,37 +6,35 @@ import { Navigation } from "../components/nav";
 import { Github, Mail, Gamepad2 } from "lucide-react";
 
 const socials = [
-    {
-      id: "steam",
-      icon: <Gamepad2 size={20} />,
-      href: "https://steamcommunity.com/profiles/76561198052767844/",
-      label: "Steam",
-      handle: "Skuall",
-    },
-    {
-      id: "email",
-      icon: <Mail size={20} />,
-      href: "mailto:gntnicolas@gmail.com",
-      label: "Email",
-      handle: "gntnicolas@gmail.com",
-    },
-    {
-      id: "github",
-      icon: <Github size={20} />,
-      href: "https://github.com/GNT-N",
-      label: "Github",
-      handle: "GNT-N",
-    },
-  ];
-  
+  {
+    id: "steam",
+    icon: <Gamepad2 size={20} />,
+    href: "https://steamcommunity.com/profiles/76561198052767844/",
+    label: "Steam",
+    handle: "Skuall",
+  },
+  {
+    id: "email",
+    icon: <Mail size={20} />,
+    href: "mailto:gntnicolas@gmail.com",
+    label: "Email",
+    handle: "gntnicolas@gmail.com",
+  },
+  {
+    id: "github",
+    icon: <Github size={20} />,
+    href: "https://github.com/GNT-N",
+    label: "Github",
+    handle: "GNT-N",
+  },
+];
+
 export default function Contact() {
   return (
-
     <div className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
       <Navigation />
       <div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
         <div className="grid w-full grid-cols-1 gap-8 mx-auto sm:mt-0 sm:grid-cols-3 lg:gap-16">
-
           {socials.map((s) => (
             <Card key={s.id}>
               <Link
@@ -67,11 +65,8 @@ export default function Contact() {
             className="absolute inset-0 -z-10 animate-fade-in"
             quantity={100}
           />
-          
         </div>
       </div>
     </div>
-    
   );
 }
-  

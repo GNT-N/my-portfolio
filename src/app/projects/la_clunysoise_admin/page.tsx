@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { Navigation } from "../../components/nav";
-import { initReactI18next, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import Login_1 from "../../../../public/la_clunysoise/admin/login1.png";
 import Login_2 from "../../../../public/la_clunysoise/admin/login2.png";
 import Interface from "../../../../public/la_clunysoise/admin/interface.png";
@@ -33,12 +33,10 @@ export default function posts() {
       <Navigation />
       <div className="px-6 pt-16 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
         <div className="mx-auto lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl mt-5">
-            <p
-              className="mt-4 text-zinc-400"
-              dangerouslySetInnerHTML={projectsLa_Clunysoise_adminTitleHTML}
-            />
-          </h2>
+          <h2
+            className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl mt-5"
+            dangerouslySetInnerHTML={projectsLa_Clunysoise_adminTitleHTML}
+          />
           <p
             className="mt-4 text-zinc-400"
             dangerouslySetInnerHTML={projectsLa_Clunysoise_adminDescriptionHTML}

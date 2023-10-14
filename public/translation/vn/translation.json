@@ -23,15 +23,15 @@
     },
     "La_Clunysoises_admin": {
       "Title": "Giao diện quản trị La Clunysoise.",
-      "Description": "Tạo giao diện quản trị để quản lý nội dung trang web (Giá / Dịch vụ / Mô tả).<br/><br/> Công nghệ : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github"
+      "Description": "Tạo giao diện quản trị để quản lý nội dung trang web (Giá / Dịch vụ / Mô tả / Những bức ảnh).<br/><br/> Công nghệ : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github"
     },
     "La_Clunysoises_logo": {
-      "Title": "",
-      "Description": ""
+      "Title": "Logo La Clunysoise.",
+      "Description": "Phân tích và tạo ra điều lệ đồ họa của logo công ty để thực hiện một cuộc đại tu hoàn chỉnh và thiết lập một thiết kế mới, táo bạo và sáng tạo hơn.<br/><br/> Công nghệ: Canva"
     },
     "La_Clunysoises_lead": {
-      "Title": "",
-      "Description": ""
+      "Title": "Quản lý dự án « La Clunysoise ».",
+      "Description": "Quản lý hoàn chỉnh dự án tạo trang web của công ty bao gồm việc tạo và soạn thảo hợp đồng, thông số kỹ thuật và các văn bản pháp lý khác cũng như chụp ảnh và viết các nội dung khác nhau của trang web để bàn giao dự án « chìa khóa trao tay ».<br/>< br/> Công nghệ : - Github - Vercel - Trello - Google Drive - Google Meet - Google Doc"
     }
   }
 }

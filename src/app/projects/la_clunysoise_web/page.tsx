@@ -36,12 +36,10 @@ export default function posts() {
       <Navigation />
       <div className="px-6 pt-16 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32 ">
         <div className="mx-auto lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl mt-5">
-            <p
-              className="mt-4 text-zinc-400"
-              dangerouslySetInnerHTML={projectsLa_Clunysoise_websiteTitleHTML}
-            />
-          </h2>
+          <h2
+            className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl mt-5"
+            dangerouslySetInnerHTML={projectsLa_Clunysoise_websiteTitleHTML}
+          />
           <p
             className="mt-4 text-zinc-400"
             dangerouslySetInnerHTML={

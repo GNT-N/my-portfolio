@@ -15,7 +15,7 @@ export default function posts() {
           Nicolas Gonot
         </h2>
         <div className="inline-grid lg:grid-cols-2 mt-0 gap-2 sm:grid-cols-1">
-          <p>
+          <p className="text-zinc-400">
             <img
               src={`/logos/telephone.svg`}
               alt={`Logo php`}
@@ -23,7 +23,7 @@ export default function posts() {
             />
             +33 6 - 89 - 79 - 95 - 09
           </p>
-          <p>
+          <p className="text-zinc-400">
             <img
               src={`/logos/location.svg`}
               alt={`Logo php`}
@@ -35,21 +35,19 @@ export default function posts() {
 
         <div className="w-full h-px bg-zinc-800" />
 
-        <div className="w-full text-center mx-auto">
+        <div className="w-full text-center text-zinc-400 mx-auto">
           <p dangerouslySetInnerHTML={profileDescriptionHTML} />
         </div>
 
         <div className="w-full h-px bg-zinc-800" />
 
-        <div className="w-full text-center mx-auto">
-          <h2 className="text-xl text-center font-bold text-zinc-100 sm:text-2xl">
-            - Centres d'interrêts -
-          </h2>
-        </div>
+        <h2 className="text-xl text-center font-bold text-zinc-100 sm:text-2xl">
+          Centres d'interrêts
+        </h2>
         <div
           style={{
             position: "relative",
-            maxWidth: "800px",
+            maxWidth: "600px",
             margin: "0 auto",
             zIndex: 2,
           }}

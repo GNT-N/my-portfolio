@@ -10,7 +10,7 @@ const fade = () => (
     infiniteLoop={true}
     showStatus={false}
     showThumbs={false}
-    showIndicators={false}
+    // showIndicators={false}
   >
     <div>
       <img src="/flags/flag-en.svg" alt="Flag EN" />

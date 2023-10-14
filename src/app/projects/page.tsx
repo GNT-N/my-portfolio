@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { Card } from "../components/card";
 import { Navigation } from "../components/nav";
-import { initReactI18next, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import projectsData from "../projects/projects.json";
 import { Gamepad2, Laptop2, Pencil, ClipboardEdit } from "lucide-react";
 
@@ -11,7 +11,7 @@ export default function posts() {
   const { t } = useTranslation("en");
 
   return (
-    <div className="custom-min-height bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 text-center">
+    <div className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 text-center">
       <Navigation />
       <div className="px-6 pt-16 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16">
         <div className="mx-auto lg:mx-0">

@@ -17,21 +17,22 @@
   "projects": {
     "Title": "Projects",
     "Description": "Some of my projects done as part of work and others during my free time.",
+
     "La_Clunysoises_website": {
-      "Title": "La Clunysoise Website.",
+      "Title": "« La Clunysoise » Website.",
       "Description": "Complete website development for a private ambulance company. The website includes several features such as appointment scheduling, contact form, location details, and phone/email contact information.Development carried out using various technologies.<br/><br/> Technology : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github"
     },
     "La_Clunysoises_admin": {
-      "Title": "La Clunysoise admin interface.",
-      "Description": "Creation of an administration interface to manage site content (Prices / Services / Description).<br/><br/> Technology : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github"
+      "Title": "« La Clunysoise » admin interface.",
+      "Description": "Creation of an administration interface to manage site content (Prices / Services / Description / Pictures).<br/><br/> Technology : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github"
     },
     "La_Clunysoises_logo": {
-      "Title": "",
-      "Description": ""
+      "Title": "« La Clunysoise » Logo.",
+      "Description": "Analysis and creation of the graphic charter of the company logo to carry out a complete overhaul and establish a new, more daring and innovative design.<br/><br/> Technology : Canva"
     },
     "La_Clunysoises_lead": {
-      "Title": "",
-      "Description": ""
+      "Title": "« La Clunysoise » project management.",
+      "Description": "Complete management of the company's website creation project including the creation & drafting of contracts, specifications and other legal documents as well as taking photos and writing the various contents of the website for « turnkey » delivery of the project.<br/><br/> Technology : - Github - Vercel - Trello - Google Drive - Google Meet - Google Doc"
     }
   }
 }

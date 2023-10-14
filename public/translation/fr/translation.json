@@ -17,21 +17,22 @@
   "projects": {
     "Title": "Projets",
     "Description": "Certains de mes projets réalisés dans le cadre de mon travail et d'autres pendant mon temps libre.",
+
     "La_Clunysoises_website": {
-      "Title": "Site Web la Clunysoise.",
+      "Title": "Site Web « La Clunysoise ».",
       "Description": "Développement complet d'un site Web pour une entreprise d'ambulance privée. Le site Web comprend plusieurs fonctionnalités telles que la prise de rendez-vous, le formulaire de contact, les détails de localisation et les coordonnées téléphoniques/e-mail. Développement réalisé à l'aide de diverses technologies.<br/><br/> Technologies : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github"
     },
     "La_Clunysoises_admin": {
-      "Title": "Interface d'administration de La Clunysoise.",
-      "Description": "Création d'une interface d'administration pour gérer le contenu du site (Tarifs/Prestations/Description).<br/><br/> Technologies : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github"
+      "Title": "Interface d'administration de « La Clunysoise ».",
+      "Description": "Création d'une interface d'administration pour gérer le contenu du site (Tarifs / Prestations / Description / Photos).<br/><br/> Technologies : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github"
     },
     "La_Clunysoises_logo": {
-      "Title": "",
-      "Description": ""
+      "Title": "Logo de la Clunysoise.",
+      "Description": "Analyse et création de la charte graphique du logo de l'entreprise pour procéder à une refonte complète et établir un nouveau design plus audacieux et innovant.<br/><br/> Technologie : Canva"
     },
     "La_Clunysoises_lead": {
-      "Title": "",
-      "Description": ""
+      "Title": "Gestion du projet « La Clunysoise ».",
+      "Description": "Gestion complète du projet de création de site internet de l'entreprise incluant la création & la rédaction des contrats, cahiers des charges et autres documents légaux ainsi que la prise de photos et la rédaction des différents contenus du site internet pour une livraison « clé en main » du projet.<br/>>< br/> Technologie : - Github - Vercel - Trello - Google Drive - Google Meet - Google Doc"
     }
   }
 }
