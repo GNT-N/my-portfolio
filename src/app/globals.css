@@ -32,17 +32,6 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.skills-bars {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
 .logo-container {
   position: absolute;
   transform: translate(-50%, -50%);
@@ -64,21 +53,24 @@ body {
 
 .skills-bars {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
 .skill-bar {
   width: 50vw;
-  margin: 5px;
-  background: #d2d2d2;
+  margin: 15px;
   border-radius: 0.5rem;
   position: relative;
   overflow: hidden;
 }
 
 .skill-fill {
-  height: 100%;
   background-color: #3498db;
   text-align: center;
   color: #fff;
@@ -86,14 +78,11 @@ body {
   font-weight: bold;
   border-radius: 0.5rem;
   width: 0;
-  animation: fillAnimation 2s ease-in-out; /* Animation de remplissage */
+  animation: fillAnimation 2s ease-in-out forwards;
 }
 
 @keyframes fillAnimation {
   0% {
     width: 0;
-  }
-  100% {
-    width: 100%;
   }
 }
