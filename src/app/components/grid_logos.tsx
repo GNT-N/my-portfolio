@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect } from "react";
 
 interface SkillData<T> {
@@ -11,10 +12,14 @@ function GridLogos<T>({ logos, skillBarsRef }: SkillData<T>) {
   >([]);
 
   useEffect(() => {
-    const isMobile = typeof window !== "undefined" && window.innerWidth < 600;
+    if (typeof window === "undefined") {
+      // Ignorer la logique si elle s'exécute côté serveur.
+      return;
+    }
+
+    const isMobile = window.innerWidth < 600;
 
     if (isMobile) {
-      // Si l'écran est de taille mobile, affichez simplement les logos dans une mise en page fixe.
       return;
     }
 
