@@ -6,51 +6,18 @@ interface SkillData<T> {
 }
 
 function GridLogos<T>({ logos, skillBarsRef }: SkillData<T>) {
-  const isMobile = window.innerWidth < 600; // Déterminez ici votre seuil de largeur d'écran pour mobile
-
-  if (isMobile) {
-    // Si l'écran est de taille mobile, affichez simplement les logos dans une mise en page fixe.
-    return (
-      <div className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            width: "100vw",
-            height: "100vh",
-          }}
-        >
-          <div className="grid grid-cols-10 gap-4">
-            {logos.map((logo, index) => (
-              <div
-                id={`logo-${index}`}
-                className="logo-container"
-                key={index}
-                style={{ margin: "10px" }}
-              >
-                <img
-                  src={`/logos/${logo}.svg`}
-                  alt={logo}
-                  style={{
-                    width: "50px",
-                    height: "50px",
-                  }}
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  // Pour les écrans non mobiles, conservez le code existant pour le positionnement aléatoire.
   const [logoPositions, setLogoPositions] = useState<
     { left: number; top: number }[]
   >([]);
 
   useEffect(() => {
+    const isMobile = typeof window !== "undefined" && window.innerWidth < 600;
+
+    if (isMobile) {
+      // Si l'écran est de taille mobile, affichez simplement les logos dans une mise en page fixe.
+      return;
+    }
+
     const margin = 100;
 
     const generateRandomPosition = () => {
