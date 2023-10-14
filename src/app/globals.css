@@ -30,6 +30,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  background: darkblue;
 }
 
 .logo-container {
@@ -71,7 +72,7 @@ body {
 }
 
 .skill-fill {
-  background-color: #3498db;
+  background-color: darkblue;
   text-align: center;
   color: #fff;
   font-size: 1rem;

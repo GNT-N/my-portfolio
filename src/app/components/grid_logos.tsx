@@ -21,8 +21,24 @@ function GridLogos<T>({ logos, skillBarsRef }: SkillData<T>) {
     const margin = 100;
 
     const generateRandomPosition = () => {
-      const left = Math.random() * (window.innerWidth - 2 * margin) + margin;
-      const top = Math.random() * (window.innerHeight - 2 * margin) + margin;
+      const zoneWidth = 1200; // Largeur de la zone d'exclusion
+      const zoneHeight = 300; // Hauteur de la zone d'exclusion
+
+      const zoneX = (window.innerWidth - zoneWidth) / 2;
+      const zoneY = (window.innerHeight - zoneHeight) / 2;
+
+      let left, top;
+
+      do {
+        left = Math.random() * (window.innerWidth - 2 * margin) + margin;
+        top = Math.random() * (window.innerHeight - 2 * margin) + margin;
+      } while (
+        left > zoneX &&
+        left < zoneX + zoneWidth &&
+        top > zoneY &&
+        top < zoneY + zoneHeight
+      );
+
       return { left, top };
     };
 
@@ -63,6 +79,13 @@ function GridLogos<T>({ logos, skillBarsRef }: SkillData<T>) {
       }
     }, 200);
   }, [logos]);
+
+  const excludeZone = {
+    x: window.innerWidth / 2 - 150, // Ajustez les dimensions et la position de la zone d'exclusion
+    y: window.innerHeight / 2 - 150,
+    width: 300,
+    height: 300,
+  };
 
   return (
     <div className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">

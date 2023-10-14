@@ -53,7 +53,7 @@ export default function Skills() {
       <Navigation />
       <Grid_logos logos={logos} skillBarsRef={skillBarsRef} />
       <div className="skills-bars">
-        <div className="m-5 bg-zinc-800 rounded-lg">
+        <div className="m-5 rounded-lg">
           <div className="skill-bar">
             <div className="skill-fill" style={{ width: "90%" }}>
               HTML - 90%
