@@ -65,7 +65,8 @@ body {
 }
 
 .skill-bar {
-  width: 50vw;
+  width: 800px;
+  height: 20px;
   margin: 15px;
   border-radius: 0.5rem;
   position: relative;
@@ -73,6 +74,7 @@ body {
 }
 
 .skill-fill {
+  height: 100% !important;
   background-color: darkblue;
   text-align: center;
   color: #fff;
@@ -86,5 +88,12 @@ body {
 @keyframes fillAnimation {
   0% {
     width: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .skill-bar {
+    width: 330px;
+    height: 25px;
   }
 }

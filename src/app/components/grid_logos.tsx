@@ -17,7 +17,7 @@ function GridLogos<T>({ logos, skillBarsRef }: SkillData<T>) {
       const margin = 100;
 
       const generateRandomPosition = () => {
-        const zoneWidth = 1200; // Largeur de la zone d'exclusion
+        const zoneWidth = 900; // Largeur de la zone d'exclusion
         const zoneHeight = 300; // Hauteur de la zone d'exclusion
 
         const zoneX = (window.innerWidth - zoneWidth) / 2;
@@ -74,7 +74,7 @@ function GridLogos<T>({ logos, skillBarsRef }: SkillData<T>) {
         } else {
           clearInterval(interval);
         }
-      }, 200);
+      }, 100);
     }
   }, [logos]);
 

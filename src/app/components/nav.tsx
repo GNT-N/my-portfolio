@@ -1,11 +1,24 @@
+import i18n from "i18next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import { useTranslation } from "react-i18next";
-import LanguageDropDown from "../components/LanguageDropDown";
+import Backend from "i18next-http-backend";
 import React, { useEffect, useRef, useState } from "react";
+import LanguageDropDown from "../components/LanguageDropDown";
+import { initReactI18next, useTranslation } from "react-i18next";
+
+i18n
+  .use(initReactI18next)
+  .use(Backend)
+  .init({
+    backend: {
+      loadPath: "/translation/{{ lng }}/translation.json",
+    },
+    lng: "en",
+    fallbackLng: ["en", "fr", "vn"],
+  });
 
 export const Navigation: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation("en", { useSuspense: false });
   const ref = useRef<HTMLElement>(null);
   const [isIntersecting, setIntersecting] = useState(true);
 

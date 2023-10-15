@@ -4,6 +4,7 @@ import Link from "next/link";
 import i18n from "i18next";
 import Backend from "i18next-http-backend";
 import Particles from "./components/particles";
+import LanguageDropDown from "./components/LanguageDropDown";
 import { initReactI18next, useTranslation } from "react-i18next";
 
 i18n
@@ -40,6 +41,7 @@ export default function Home() {
               {t(`menu.${item.name}`)}
             </Link>
           ))}
+          <LanguageDropDown />
         </ul>
       </nav>
 
