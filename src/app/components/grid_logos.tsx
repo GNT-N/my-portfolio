@@ -1,4 +1,3 @@
-"use client";
 import React, { useState, useEffect } from "react";
 
 interface SkillData<T> {
@@ -12,85 +11,72 @@ function GridLogos<T>({ logos, skillBarsRef }: SkillData<T>) {
   >([]);
 
   useEffect(() => {
-    if (typeof window === "undefined") {
-      // Ignorer la logique si elle s'exécute côté serveur.
-      return;
-    }
-
     const isMobile = window.innerWidth < 600;
 
-    if (isMobile) {
-      return;
-    }
+    if (!isMobile) {
+      const margin = 100;
 
-    const margin = 100;
+      const generateRandomPosition = () => {
+        const zoneWidth = 1200; // Largeur de la zone d'exclusion
+        const zoneHeight = 300; // Hauteur de la zone d'exclusion
 
-    const generateRandomPosition = () => {
-      const zoneWidth = 1200; // Largeur de la zone d'exclusion
-      const zoneHeight = 300; // Hauteur de la zone d'exclusion
+        const zoneX = (window.innerWidth - zoneWidth) / 2;
+        const zoneY = (window.innerHeight - zoneHeight) / 2;
 
-      const zoneX = (window.innerWidth - zoneWidth) / 2;
-      const zoneY = (window.innerHeight - zoneHeight) / 2;
+        let left, top;
 
-      let left, top;
+        do {
+          left = Math.random() * (window.innerWidth - 2 * margin) + margin;
+          top = Math.random() * (window.innerHeight - 2 * margin) + margin;
+        } while (
+          left > zoneX &&
+          left < zoneX + zoneWidth &&
+          top > zoneY &&
+          top < zoneY + zoneHeight
+        );
 
-      do {
-        left = Math.random() * (window.innerWidth - 2 * margin) + margin;
-        top = Math.random() * (window.innerHeight - 2 * margin) + margin;
-      } while (
-        left > zoneX &&
-        left < zoneX + zoneWidth &&
-        top > zoneY &&
-        top < zoneY + zoneHeight
-      );
+        return { left, top };
+      };
 
-      return { left, top };
-    };
+      const isOverlapping = (
+        pos1: { left: number; top: number },
+        pos2: { left: number; top: number }
+      ) => {
+        const distance = Math.sqrt(
+          Math.pow(pos1.left - pos2.left, 2) + Math.pow(pos1.top - pos2.top, 2)
+        );
+        return distance < 90;
+      };
 
-    const isOverlapping = (
-      pos1: { left: number; top: number },
-      pos2: { left: number; top: number }
-    ) => {
-      const distance = Math.sqrt(
-        Math.pow(pos1.left - pos2.left, 2) + Math.pow(pos1.top - pos2.top, 2)
-      );
-      return distance < 90;
-    };
+      const newPositions: React.SetStateAction<
+        { left: number; top: number }[]
+      > = [];
 
-    const newPositions: React.SetStateAction<{ left: number; top: number }[]> =
-      [];
+      logos.forEach(() => {
+        let position: { left: number; top: number };
+        do {
+          position = generateRandomPosition();
+        } while (newPositions.some((p) => isOverlapping(p, position)));
 
-    logos.forEach(() => {
-      let position: { left: number; top: number };
-      do {
-        position = generateRandomPosition();
-      } while (newPositions.some((p) => isOverlapping(p, position)));
+        newPositions.push(position);
+      });
 
-      newPositions.push(position);
-    });
+      setLogoPositions(newPositions);
 
-    setLogoPositions(newPositions);
-
-    let logoIndex = 0;
-    const interval = setInterval(() => {
-      if (logoIndex < logos.length) {
-        const logoElement = document.getElementById(`logo-${logoIndex}`);
-        if (logoElement) {
-          logoElement.classList.add("logo-fade-in");
+      let logoIndex = 0;
+      const interval = setInterval(() => {
+        if (logoIndex < logos.length) {
+          const logoElement = document.getElementById(`logo-${logoIndex}`);
+          if (logoElement) {
+            logoElement.classList.add("logo-fade-in");
+          }
+          logoIndex++;
+        } else {
+          clearInterval(interval);
         }
-        logoIndex++;
-      } else {
-        clearInterval(interval);
-      }
-    }, 200);
+      }, 200);
+    }
   }, [logos]);
-
-  const excludeZone = {
-    x: window.innerWidth / 2 - 150, // Ajustez les dimensions et la position de la zone d'exclusion
-    y: window.innerHeight / 2 - 150,
-    width: 300,
-    height: 300,
-  };
 
   return (
     <div className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
