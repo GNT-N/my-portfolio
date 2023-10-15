@@ -18,20 +18,21 @@
     "Title": "Dự án",
     "Description": "Một số dự án của tôi được thực hiện như một phần công việc của tôi và những dự án khác được thực hiện trong thời gian rảnh rỗi.",
     "La_Clunysoises_website": {
-      "Title": "Trang web La Clunysoise.",
+      "Title": "Trang web « La Clunysoise ».",
       "Description": "Hoàn thành phát triển trang web cho một công ty xe cứu thương tư nhân. Trang web bao gồm một số tính năng như đặt lịch hẹn, biểu mẫu liên hệ, chi tiết vị trí và thông tin liên hệ qua điện thoại/email. Quá trình phát triển được thực hiện bằng nhiều công nghệ khác nhau.<br/><br/> Công nghệ : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github"
     },
     "La_Clunysoises_admin": {
-      "Title": "Giao diện quản trị La Clunysoise.",
-      "Description": "Tạo giao diện quản trị để quản lý nội dung trang web (Giá / Dịch vụ / Mô tả / Những bức ảnh).<br/><br/> Công nghệ : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github"
+      "Title": "Giao diện quản trị « La Clunysoise ».",
+      "Description": "Tạo giao diện quản trị để quản lý nội dung trang web (Giá / Dịch vụ / Mô tả / Những bức ảnh).<br/><br/> Công nghệ : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github",
+      "Content": "Thực hiện bảo mật bằng cách xác thực để bảo vệ quyền truy cập vào khu vực quản trị trang web."
     },
     "La_Clunysoises_logo": {
-      "Title": "Logo La Clunysoise.",
+      "Title": "Logo « La Clunysoise ».",
       "Description": "Phân tích và tạo ra điều lệ đồ họa của logo công ty để thực hiện một cuộc đại tu hoàn chỉnh và thiết lập một thiết kế mới, táo bạo và sáng tạo hơn.<br/><br/> Công nghệ: Canva"
     },
     "La_Clunysoises_lead": {
       "Title": "Quản lý dự án « La Clunysoise ».",
-      "Description": "Quản lý hoàn chỉnh dự án tạo trang web của công ty bao gồm việc tạo và soạn thảo hợp đồng, thông số kỹ thuật và các văn bản pháp lý khác cũng như chụp ảnh và viết các nội dung khác nhau của trang web để bàn giao dự án « chìa khóa trao tay ».<br/>< br/> Công nghệ : - Github - Vercel - Trello - Google Drive - Google Meet - Google Doc"
+      "Description": "Quản lý hoàn chỉnh dự án tạo trang web của công ty bao gồm việc tạo và soạn thảo hợp đồng, thông số kỹ thuật và các văn bản pháp lý khác cũng như chụp ảnh và viết các nội dung khác nhau của trang web để bàn giao dự án « chìa khóa trao tay ».<br/><br/> Công nghệ : - Github - Vercel - Trello - Google Drive - Google Meet - Google Doc"
     }
   }
 }

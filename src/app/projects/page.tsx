@@ -8,7 +8,7 @@ import projectsData from "../projects/projects.json";
 import { Gamepad2, Laptop2, Pencil, ClipboardEdit } from "lucide-react";
 
 export default function posts() {
-  const { t } = useTranslation("en");
+  const { t } = useTranslation("en", { useSuspense: false });
 
   return (
     <div className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 text-center">

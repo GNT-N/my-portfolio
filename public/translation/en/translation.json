@@ -24,7 +24,8 @@
     },
     "La_Clunysoises_admin": {
       "Title": "« La Clunysoise » admin interface.",
-      "Description": "Creation of an administration interface to manage site content (Prices / Services / Description / Pictures).<br/><br/> Technology : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github"
+      "Description": "Creation of an administration interface to manage site content (Prices / Services / Description / Pictures).<br/><br/> Technology : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github",
+      "Content": "Implementation of security by authentication to protect access to the site administration area."
     },
     "La_Clunysoises_logo": {
       "Title": "« La Clunysoise » Logo.",

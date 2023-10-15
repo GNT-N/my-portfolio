@@ -77,8 +77,7 @@ export default function posts() {
             className="rounded-xl"
           />
           <p className="mt-4 text-zinc-400 text-center">
-            Implementation of security by authentication to protect access to
-            the site administration area.
+            {t("projects.La_Clunysoises_admin.Content")}
           </p>
           <Image
             src={Login_2}

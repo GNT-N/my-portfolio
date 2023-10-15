@@ -11,7 +11,7 @@ function GridLogos<T>({ logos, skillBarsRef }: SkillData<T>) {
   >([]);
 
   useEffect(() => {
-    const isMobile = window.innerWidth < 600;
+    const isMobile = window.innerWidth < 900;
 
     if (!isMobile) {
       const margin = 100;

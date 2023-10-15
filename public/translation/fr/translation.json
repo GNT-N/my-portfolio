@@ -24,15 +24,16 @@
     },
     "La_Clunysoises_admin": {
       "Title": "Interface d'administration de « La Clunysoise ».",
-      "Description": "Création d'une interface d'administration pour gérer le contenu du site (Tarifs / Prestations / Description / Photos).<br/><br/> Technologies : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github"
+      "Description": "Création d'une interface d'administration pour gérer le contenu du site (Tarifs / Prestations / Description / Photos).<br/><br/> Technologies : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github",
+      "Content": "Mise en place d'une sécurité par authentification pour protéger l'accès à l'espace d'administration du site."
     },
     "La_Clunysoises_logo": {
-      "Title": "Logo de la Clunysoise.",
+      "Title": "Logo de « La Clunysoise ».",
       "Description": "Analyse et création de la charte graphique du logo de l'entreprise pour procéder à une refonte complète et établir un nouveau design plus audacieux et innovant.<br/><br/> Technologie : Canva"
     },
     "La_Clunysoises_lead": {
       "Title": "Gestion du projet « La Clunysoise ».",
-      "Description": "Gestion complète du projet de création de site internet de l'entreprise incluant la création & la rédaction des contrats, cahiers des charges et autres documents légaux ainsi que la prise de photos et la rédaction des différents contenus du site internet pour une livraison « clé en main » du projet.<br/>>< br/> Technologie : - Github - Vercel - Trello - Google Drive - Google Meet - Google Doc"
+      "Description": "Gestion complète du projet de création de site internet de l'entreprise incluant la création & la rédaction des contrats, cahiers des charges et autres documents légaux ainsi que la prise de photos et la rédaction des différents contenus du site internet pour une livraison « clé en main » du projet.<br/><br/> Technologie : - Github - Vercel - Trello - Google Drive - Google Meet - Google Doc"
     }
   }
 }
