@@ -39,8 +39,6 @@ export default function posts() {
           <p dangerouslySetInnerHTML={profileDescriptionHTML} />
         </div>
 
-        <div className="w-full h-px bg-zinc-800" />
-
         <h2 className="text-xl text-center font-bold text-zinc-100 sm:text-2xl">
           Centres d'interrêts
         </h2>

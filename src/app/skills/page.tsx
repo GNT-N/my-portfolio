@@ -54,24 +54,60 @@ export default function Skills() {
       <Grid_logos logos={logos} skillBarsRef={skillBarsRef} />
       <div className="skills-bars">
         <div className="m-5 rounded-lg">
+          <p className="text-center text-zinc-400">
+            <b>Languages</b>
+          </p>
           <div className="skill-bar">
-            <div className="skill-fill" style={{ width: "90%" }}>
-              HTML - 90%
+            <div className="skill-fill" style={{ width: "100%" }}>
+              HTML
             </div>
           </div>
           <div className="skill-bar">
-            <div className="skill-fill" style={{ width: "80%" }}>
-              HTML - 80%
+            <div className="skill-fill" style={{ width: "90%" }}>
+              CSS
             </div>
           </div>
           <div className="skill-bar">
             <div className="skill-fill" style={{ width: "70%" }}>
-              HTML - 70%
+              JavaScript
             </div>
           </div>
           <div className="skill-bar">
             <div className="skill-fill" style={{ width: "60%" }}>
-              HTML - 60%
+              PHP
+            </div>
+          </div>
+          <p className="text-center text-zinc-400">
+            <b>Frameworks</b>
+          </p>
+          <div className="skill-bar">
+            <div className="skill-fill" style={{ width: "90%" }}>
+              Bootstrap
+            </div>
+          </div>
+          <div className="skill-bar">
+            <div className="skill-fill" style={{ width: "80%" }}>
+              Tailwind
+            </div>
+          </div>
+          <div className="skill-bar">
+            <div className="skill-fill" style={{ width: "70%" }}>
+              Jquery
+            </div>
+          </div>
+          <div className="skill-bar">
+            <div className="skill-fill" style={{ width: "70%" }}>
+              REACT
+            </div>
+          </div>
+          <div className="skill-bar">
+            <div className="skill-fill" style={{ width: "70%" }}>
+              NextJS
+            </div>
+          </div>
+          <div className="skill-bar">
+            <div className="skill-fill" style={{ width: "60%" }}>
+              Symfony
             </div>
           </div>
         </div>
