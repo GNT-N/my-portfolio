@@ -50,7 +50,7 @@ export default function posts() {
 
         <div className="w-full h-px bg-zinc-800" />
         <section className="mx-auto text-center">
-          <div className="inline-grid grid-cols-10 mt-0 gap-10">
+          <div className="inline-grid grid-cols-10 mt-0 gap-5">
             {logos.map((logo, index) => (
               <img
                 key={index}

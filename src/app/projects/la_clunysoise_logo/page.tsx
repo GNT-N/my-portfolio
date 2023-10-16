@@ -18,7 +18,7 @@ export default function posts() {
     __html: t("projects.La_Clunysoises_logo.Description"),
   };
   return (
-    <div className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 text-center">
+    <div className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 text-center h-screen">
       <Navigation />
       <div className="px-6 pt-16 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32 ">
         <div className="mx-auto lg:mx-0">

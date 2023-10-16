@@ -77,6 +77,21 @@ export default function Skills() {
               PHP
             </div>
           </div>
+          <div className="skill-bar">
+            <div className="skill-fill" style={{ width: "50%" }}>
+              JSX
+            </div>
+          </div>
+          <div className="skill-bar">
+            <div className="skill-fill" style={{ width: "70%" }}>
+              Twig
+            </div>
+          </div>
+          <div className="skill-bar">
+            <div className="skill-fill" style={{ width: "60%" }}>
+              Typescript
+            </div>
+          </div>
           <p className="text-center text-zinc-400">
             <b>Frameworks</b>
           </p>

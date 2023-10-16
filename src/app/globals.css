@@ -34,6 +34,9 @@ body {
   background: darkblue;
 }
 
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* LOGOS */
+
 .logo-container {
   position: absolute;
   transform: translate(-50%, -50%);
@@ -53,6 +56,9 @@ body {
   }
 }
 
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* Skills-bars */
+
 .skills-bars {
   display: flex;
   align-items: center;
@@ -66,7 +72,7 @@ body {
 
 .skill-bar {
   width: 800px;
-  height: 20px;
+  height: 25px;
   margin: 15px;
   border-radius: 0.5rem;
   position: relative;
@@ -92,9 +98,21 @@ body {
   }
 }
 
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* Screen Mobile */
+
 @media (max-width: 900px) {
   .skill-bar {
     width: 330px;
     height: 25px;
   }
+
+  /* 
+  .inline-grid img {
+    max-width: 20px;
+  } */
+
+  /* .inline-grid {
+    grid-template-columns: repeat(5, 1fr);
+  } */
 }

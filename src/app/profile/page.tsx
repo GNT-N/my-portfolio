@@ -35,9 +35,13 @@ export default function posts() {
 
         <div className="w-full h-px bg-zinc-800" />
 
-        <div className="w-full text-center text-zinc-400 mx-auto">
+        <div className="text-center text-zinc-400 mx-auto">
           <p dangerouslySetInnerHTML={profileDescriptionHTML} />
         </div>
+
+        <div className="w-full h-px bg-zinc-800" />
+
+        <p>Aptitude</p>
 
         <h2 className="text-xl text-center font-bold text-zinc-100 sm:text-2xl">
           Centres d'interrêts

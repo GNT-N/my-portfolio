@@ -27,7 +27,7 @@ const LanguageDropDown: React.FC = () => {
   };
 
   return (
-    <div className="relative inline-block">
+    <div className="relative inline-block mt-1">
       <button
         className="text-zinc-400 hover:text-zinc-100 rounded bg-transparent flex items-center space-x-2"
         onClick={toggleDropdown}
@@ -40,7 +40,7 @@ const LanguageDropDown: React.FC = () => {
         {languageName[i18n.language]}
       </button>
       {isDropdownOpen && (
-        <div className="mt-2 w-14 bg-transparent rounded-lg">
+        <div className="w-14 bg-transparent">
           <button onClick={() => handleLangChange("en")} className="py-2 px-4">
             <img src="/flags/flag-en.svg" alt="en" className="w-5 h-5" />
           </button>
