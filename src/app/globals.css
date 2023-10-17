@@ -150,7 +150,9 @@ body {
     .skill-fill {
         font-size: 10px;
     }
+}
 
+@media (orientation: landscape) {
     .bg-gradient-to-tl {
         height: 125vh;
     }
