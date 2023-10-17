@@ -42,6 +42,7 @@
     "@opentelemetry/api": "^1.4.1",
     "@tailwindcss/line-clamp": "^0.4.2",
     "@tailwindcss/typography": "^0.5.9",
+    "@types/jquery": "^3.5.22",
     "@types/react-transition-group": "^4.4.7",
     "autoprefixer": "^10.4.13",
     "encoding": "^0.1.13",

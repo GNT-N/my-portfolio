@@ -32,6 +32,10 @@ export const Navigation: React.FC = () => {
     return () => observer.disconnect();
   }, []);
 
+  const GoBack = () => {
+    window.history.back();
+  };
+
   return (
     <header ref={ref}>
       <div
@@ -70,12 +74,13 @@ export const Navigation: React.FC = () => {
             <LanguageDropDown />
           </div>
 
-          <Link
-            href="/"
+          <a
+            onClick={GoBack}
             className="duration-200 text-zinc-300 hover:text-zinc-100"
+            style={{ cursor: "pointer" }}
           >
             <ArrowLeft className="w-6 h-6 " />
-          </Link>
+          </a>
         </div>
       </div>
     </header>
