@@ -1,39 +1,44 @@
 {
-  "menu": {
-    "Profile": "Profil",
-    "Projects": "Projets",
-    "Skills": "Compétences",
-    "Contact": "Contact"
-  },
-
-  "home": {
-    "Description": "Développeur web full stack"
-  },
-
-  "profile": {
-    "Description": "Développeur web full stack nouvellement diplômé, laissez-moi vous emmener dans mon univers. <br/><br/>Âgé de 31 ans, j'ai toujours été fasciné par l'informatique et les nouvelles technologies. Dès mon plus jeune âge, j'adorais déjà explorer la configuration de mon PC pour améliorer constamment ses performances ou trouver et exploiter des failles de sécurité dans divers logiciels ou jeux vidéo, toujours dans le but d'en apprendre davantage. <br/><br/>Ambulancier spécialisé dans l'urgence de 10 ans d'expérience dans plusieurs régions de France comme la haute montagne, la métropole de Lyon ou le sud de la France, j'ai décidé de faire une transition professionnelle. <br/><br/>Désormais développeur full stack web & web mobile, je vous propose mon expérience, mes compétences ainsi que mes qualités pour la création de vos projets."
-  },
-
-  "projects": {
-    "Title": "Projets",
-    "Description": "Certains de mes projets réalisés dans le cadre de mon travail et d'autres pendant mon temps libre.",
-
-    "La_Clunysoises_website": {
-      "Title": "Site Web « La Clunysoise ».",
-      "Description": "Développement complet d'un site Web pour une entreprise d'ambulance privée. Le site Web comprend plusieurs fonctionnalités telles que la prise de rendez-vous, le formulaire de contact, les détails de localisation et les coordonnées téléphoniques/e-mail. Développement réalisé à l'aide de diverses technologies.<br/><br/> Technologies : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github"
+    "menu": {
+        "Profile": "Profil",
+        "Projects": "Projets",
+        "Skills": "Compétences",
+        "Contact": "Contact"
     },
-    "La_Clunysoises_admin": {
-      "Title": "Interface d'administration de « La Clunysoise ».",
-      "Description": "Création d'une interface d'administration pour gérer le contenu du site (Tarifs / Prestations / Description / Photos).<br/><br/> Technologies : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github",
-      "Content": "Mise en place d'une sécurité par authentification pour protéger l'accès à l'espace d'administration du site."
+
+    "home": {
+        "Description": "Développeur web full stack"
     },
-    "La_Clunysoises_logo": {
-      "Title": "Logo de « La Clunysoise ».",
-      "Description": "Analyse et création de la charte graphique du logo de l'entreprise pour procéder à une refonte complète et établir un nouveau design plus audacieux et innovant.<br/><br/> Technologie : Canva"
+
+    "profile": {
+        "Description": "Développeur web full stack nouvellement diplômé, laissez-moi vous emmener dans mon univers. <br/><br/>Âgé de 31 ans, j'ai toujours été fasciné par l'informatique et les nouvelles technologies. Dès mon plus jeune âge, j'adorais déjà explorer la configuration de mon PC pour améliorer constamment ses performances ou trouver et exploiter des failles de sécurité dans divers logiciels ou jeux vidéo, toujours dans le but d'en apprendre davantage. <br/><br/>Ambulancier spécialisé dans l'urgence de 10 ans d'expérience dans plusieurs régions de France comme la haute montagne, la métropole de Lyon ou le sud de la France, j'ai décidé de faire une transition professionnelle. <br/><br/>Désormais développeur full stack web & web mobile, je vous propose mon expérience, mes compétences ainsi que mes qualités pour la création de vos projets.",
+        "Carousel": {
+            "Label1": "Jeux vidéos",
+            "Label2": "Voyages",
+            "Label3": "Découvertes"
+        }
     },
-    "La_Clunysoises_lead": {
-      "Title": "Gestion du projet « La Clunysoise ».",
-      "Description": "Gestion complète du projet de création de site internet de l'entreprise incluant la création & la rédaction des contrats, cahiers des charges et autres documents légaux ainsi que la prise de photos et la rédaction des différents contenus du site internet pour une livraison « clé en main » du projet.<br/><br/> Technologie : - Github - Vercel - Trello - Google Drive - Google Meet - Google Doc"
+
+    "projects": {
+        "Title": "Projets",
+        "Description": "Certains de mes projets réalisés dans le cadre de mon travail et d'autres pendant mon temps libre.",
+
+        "La_Clunysoises_website": {
+            "Title": "Site Web « La Clunysoise ».",
+            "Description": "Développement complet d'un site Web pour une entreprise d'ambulance privée. Le site Web comprend plusieurs fonctionnalités telles que la prise de rendez-vous, le formulaire de contact, les détails de localisation et les coordonnées téléphoniques/e-mail. Développement réalisé à l'aide de diverses technologies.<br/><br/> Technologies : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github"
+        },
+        "La_Clunysoises_admin": {
+            "Title": "Interface d'administration de « La Clunysoise ».",
+            "Description": "Création d'une interface d'administration pour gérer le contenu du site (Tarifs / Prestations / Description / Photos).<br/><br/> Technologies : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github",
+            "Content": "Mise en place d'une sécurité par authentification pour protéger l'accès à l'espace d'administration du site."
+        },
+        "La_Clunysoises_logo": {
+            "Title": "Logo de « La Clunysoise ».",
+            "Description": "Analyse et création de la charte graphique du logo de l'entreprise pour procéder à une refonte complète et établir un nouveau design plus audacieux et innovant.<br/><br/> Technologie : Canva"
+        },
+        "La_Clunysoises_lead": {
+            "Title": "Gestion du projet « La Clunysoise ».",
+            "Description": "Gestion complète du projet de création de site internet de l'entreprise incluant la création & la rédaction des contrats, cahiers des charges et autres documents légaux ainsi que la prise de photos et la rédaction des différents contenus du site internet pour une livraison « clé en main » du projet.<br/><br/> Technologie : - Github - Vercel - Trello - Google Drive - Google Meet - Google Doc"
+        }
     }
-  }
 }

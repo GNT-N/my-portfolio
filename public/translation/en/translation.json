@@ -1,39 +1,44 @@
 {
-  "menu": {
-    "Profile": "Profile",
-    "Projects": "Projects",
-    "Skills": "Skills",
-    "Contact": "Contact"
-  },
-
-  "home": {
-    "Description": "Developer web full stack"
-  },
-
-  "profile": {
-    "Description": "Newly graduated full stack web developer, let me take you into my world. <br/><br/>Aged 31, I have always been fascinated by computers and new technologies. From a young age, I already loved exploring the configuration of my PC to constantly improve its performance or find and exploit security vulnerabilities in various software or video games, always with the goal of learning more. <br/><br/>A paramedic specializing in emergencies with 10 years of experience in several regions of France such as the high mountains, the metropolis of Lyon or the south of France, I decided to make a professional transition. <br/><br/>Now a full stack web & mobile web developer, I offer you my experience, my skills & qualities for the creation of your projects."
-  },
-
-  "projects": {
-    "Title": "Projects",
-    "Description": "Some of my projects done as part of work and others during my free time.",
-
-    "La_Clunysoises_website": {
-      "Title": "« La Clunysoise » Website.",
-      "Description": "Complete website development for a private ambulance company. The website includes several features such as appointment scheduling, contact form, location details, and phone/email contact information.Development carried out using various technologies.<br/><br/> Technology : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github"
+    "menu": {
+        "Profile": "Profile",
+        "Projects": "Projects",
+        "Skills": "Skills",
+        "Contact": "Contact"
     },
-    "La_Clunysoises_admin": {
-      "Title": "« La Clunysoise » admin interface.",
-      "Description": "Creation of an administration interface to manage site content (Prices / Services / Description / Pictures).<br/><br/> Technology : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github",
-      "Content": "Implementation of security by authentication to protect access to the site administration area."
+
+    "home": {
+        "Description": "Developer web full stack"
     },
-    "La_Clunysoises_logo": {
-      "Title": "« La Clunysoise » Logo.",
-      "Description": "Analysis and creation of the graphic charter of the company logo to carry out a complete overhaul and establish a new, more daring and innovative design.<br/><br/> Technology : Canva"
+
+    "profile": {
+        "Description": "Newly graduated full stack web developer, let me take you into my world. <br/><br/>Aged 31, I have always been fascinated by computers and new technologies. From a young age, I already loved exploring the configuration of my PC to constantly improve its performance or find and exploit security vulnerabilities in various software or video games, always with the goal of learning more. <br/><br/>A paramedic specializing in emergencies with 10 years of experience in several regions of France such as the high mountains, the metropolis of Lyon or the south of France, I decided to make a professional transition. <br/><br/>Now a full stack web & mobile web developer, I offer you my experience, my skills & qualities for the creation of your projects.",
+        "Carousel": {
+            "Label1": "Gaming",
+            "Label2": "Travel",
+            "Label3": "Discovery"
+        }
     },
-    "La_Clunysoises_lead": {
-      "Title": "« La Clunysoise » project management.",
-      "Description": "Complete management of the company's website creation project including the creation & drafting of contracts, specifications and other legal documents as well as taking photos and writing the various contents of the website for « turnkey » delivery of the project.<br/><br/> Technology : - Github - Vercel - Trello - Google Drive - Google Meet - Google Doc"
+
+    "projects": {
+        "Title": "Projects",
+        "Description": "Some of my projects done as part of work and others during my free time.",
+
+        "La_Clunysoises_website": {
+            "Title": "« La Clunysoise » Website.",
+            "Description": "Complete website development for a private ambulance company. The website includes several features such as appointment scheduling, contact form, location details, and phone/email contact information.Development carried out using various technologies.<br/><br/> Technology : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github"
+        },
+        "La_Clunysoises_admin": {
+            "Title": "« La Clunysoise » admin interface.",
+            "Description": "Creation of an administration interface to manage site content (Prices / Services / Description / Pictures).<br/><br/> Technology : - HTML5 - CSS3 - JavaScript - PHP - SQL - Twig - Bootstrap - Symfony 6 - Laragon - Github",
+            "Content": "Implementation of security by authentication to protect access to the site administration area."
+        },
+        "La_Clunysoises_logo": {
+            "Title": "« La Clunysoise » Logo.",
+            "Description": "Analysis and creation of the graphic charter of the company logo to carry out a complete overhaul and establish a new, more daring and innovative design.<br/><br/> Technology : Canva"
+        },
+        "La_Clunysoises_lead": {
+            "Title": "« La Clunysoise » project management.",
+            "Description": "Complete management of the company's website creation project including the creation & drafting of contracts, specifications and other legal documents as well as taking photos and writing the various contents of the website for « turnkey » delivery of the project.<br/><br/> Technology : - Github - Vercel - Trello - Google Drive - Google Meet - Google Doc"
+        }
     }
-  }
 }

@@ -45,7 +45,7 @@ export const Navigation: React.FC = () => {
                 }`}
             >
                 <div className="flex flex-row-reverse items-center justify-between px-4 py-6 mx-auto max-w-7xl">
-                    <div className="flex justify-between gap-1">
+                    <div className="flex justify-between lg:gap-3 gap-2">
                         <Link
                             href="/profile"
                             className="duration-200 text-zinc-400 hover:text-zinc-100"
