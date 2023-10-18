@@ -49,7 +49,7 @@ export default function Skills() {
     }, []);
 
     return (
-        <div className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 min-h-screen">
+        <div className="skills_page bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
             <Navigation />
             <div className="flex items-center justify-center px-4 mx-auto">
                 <Grid_logos logos={logos} skillBarsRef={skillBarsRef} />

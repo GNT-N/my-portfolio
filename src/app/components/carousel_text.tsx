@@ -23,7 +23,7 @@ const SkillText = () => {
     return (
         <section id="skilltext">
             <div className="carrosuel_text">
-                <div className="carousel-container text-zinc-400">
+                <div className="carousel-container text-white font-bold">
                     {listItems.map((item, index) => (
                         <div
                             key={index}

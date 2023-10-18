@@ -27,7 +27,7 @@ const LanguageDropDown: React.FC = () => {
     };
 
     return (
-        <div className="relative inline-block mt-1">
+        <div className="relative inline-block mt-0.5">
             <button
                 className="text-zinc-400 hover:text-zinc-100 rounded bg-transparent flex items-center space-x-2"
                 onClick={toggleDropdown}
