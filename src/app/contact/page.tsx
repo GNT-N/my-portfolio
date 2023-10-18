@@ -3,15 +3,15 @@ import Link from "next/link";
 import { Card } from "../components/card";
 import Particles from "../components/particles";
 import { Navigation } from "../components/nav";
-import { Github, Mail, Gamepad2 } from "lucide-react";
+import { Github, Mail, Linkedin, Gamepad2 } from "lucide-react";
 
 const socials = [
     {
-        id: "steam",
-        icon: <Gamepad2 size={20} />,
-        href: "https://steamcommunity.com/profiles/76561198052767844/",
-        label: "Steam",
-        handle: "Skuall",
+        id: "github",
+        icon: <Github size={20} />,
+        href: "https://github.com/GNT-N",
+        label: "Github",
+        handle: "GNT-N",
     },
     {
         id: "email",
@@ -21,12 +21,19 @@ const socials = [
         handle: "gntnicolas@gmail.com",
     },
     {
-        id: "github",
-        icon: <Github size={20} />,
-        href: "https://github.com/GNT-N",
-        label: "Github",
-        handle: "GNT-N",
+        id: "linkdIn",
+        icon: <Linkedin size={20} />,
+        href: "https://www.linkedin.com/in/nicolas-gonot-3054a7272/",
+        label: "Email",
+        handle: "LindedIn",
     },
+    // {
+    //     id: "steam",
+    //     icon: <Gamepad2 size={20} />,
+    //     href: "https://steamcommunity.com/profiles/76561198052767844/",
+    //     label: "Steam",
+    //     handle: "Skuall",
+    // },
 ];
 
 export default function Contact() {
