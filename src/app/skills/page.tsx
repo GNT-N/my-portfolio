@@ -114,7 +114,7 @@ export default function Skills() {
                                 Typescript
                             </div>
                         </div>
-                        <p className="text-center text-zinc-400">
+                        <p className="text-center text-zinc-400 mt-5">
                             <b>Frameworks</b>
                         </p>
                         <div className="skill-bar">

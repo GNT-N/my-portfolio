@@ -2,29 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-} */
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
-:root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-}
-
 body {
     font-family: "Inter", sans-serif;
+    background: linear-gradient(to top left, var(--zinc-900), var(--zinc-900));
     background: darkblue;
+}
+
+:root {
+    --zinc-900: rgb(0, 0, 0);
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
@@ -117,7 +102,14 @@ body {
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
-/* Screen Mobile */
+/* carousel - photo */
+
+.carousel {
+    border-radius: 20px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* Mobile Screen */
 
 @media (max-width: 900px) {
     .skill-bar {
@@ -125,18 +117,15 @@ body {
         height: 25px;
         margin: 8px;
     }
-
-    /* 
-  .inline-grid img {
-    max-width: 20px;
-  } */
-
-    /* .inline-grid {
-    grid-template-columns: repeat(5, 1fr);
-  } */
 }
 
 @media (max-height: 630px) {
+    @media (orientation: landscape) {
+        .bg-gradient-to-tl {
+            height: 125vh;
+        }
+    }
+
     .skills-bars {
         top: 5rem;
     }
@@ -149,11 +138,5 @@ body {
 
     .skill-fill {
         font-size: 10px;
-    }
-}
-
-@media (orientation: landscape) {
-    .bg-gradient-to-tl {
-        height: 125vh;
     }
 }
