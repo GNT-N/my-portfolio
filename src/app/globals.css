@@ -108,6 +108,20 @@ body {
     border-radius: 20px;
 }
 
+.centered-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    /* width: 100%; */
+    border-radius: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    padding: 40px;
+}
+
 /* ---------------------------------------------------------------------------------------------------------------------- */
 /* Mobile Screen */
 
@@ -116,6 +130,13 @@ body {
         width: 330px;
         height: 25px;
         margin: 8px;
+    }
+
+    .centered-label {
+        padding: 5px;
+        width: 100%;
+        font-size: medium;
+        border-radius: 0px;
     }
 }
 

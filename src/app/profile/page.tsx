@@ -36,25 +36,21 @@ export default function posts() {
 
                 <div className="w-full h-px bg-zinc-800" />
 
+                <CarouselTexte />
                 <div className="text-center text-zinc-400 mx-auto">
                     <p dangerouslySetInnerHTML={profileDescriptionHTML} />
                 </div>
 
-                <p className="text-center font-bold text-lg text-zinc-100">
-                    Aptitude
-                </p>
-                <CarouselTexte />
-
                 <div className="w-full h-px bg-zinc-800" />
 
-                <h2 className="text-center font-bold text-lg text-zinc-100">
+                <h2 className="mt-5 text-center font-bold text-lg text-zinc-100">
                     Centres d'interrêts
                 </h2>
                 <div
                     style={{
                         position: "relative",
                         maxWidth: "1200px",
-                        margin: "0 auto",
+                        margin: "1 auto",
                         zIndex: 2,
                     }}
                 >
@@ -62,6 +58,7 @@ export default function posts() {
                 </div>
 
                 <div className="w-full h-px bg-zinc-800" />
+                <div className="w-full h-px " />
             </div>
         </div>
     );
