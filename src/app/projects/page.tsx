@@ -20,7 +20,7 @@ const prod = [
         icon: <Laptop2 size={20} />,
         href: "",
         label: "in production",
-        handle: "BPM Analyzer",
+        handle: "Realtime BPM Analyzer",
     },
     {
         id: "L'atelier de Nathalie",
