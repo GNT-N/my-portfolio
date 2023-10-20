@@ -24,7 +24,7 @@ const socials = [
         id: "linkdIn",
         icon: <Linkedin size={20} />,
         href: "https://www.linkedin.com/in/nicolas-gonot-3054a7272/",
-        label: "Email",
+        label: "LinkedIn",
         handle: "LinkedIn",
     },
     // {
