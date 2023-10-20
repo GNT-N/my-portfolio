@@ -16,18 +16,18 @@ const prod = [
     //     handle: "Skuall",
     // },
     {
+        id: " Realtime BPM Analyzer ",
+        icon: <Laptop2 size={20} />,
+        href: "",
+        label: "in production",
+        handle: "BPM Analyzer",
+    },
+    {
         id: "L'atelier de Nathalie",
         icon: <Laptop2 size={20} />,
         href: "",
         label: "in production",
         handle: "L'atelier de Nathalie",
-    },
-    {
-        id: " Pizzeria ",
-        icon: <Laptop2 size={20} />,
-        href: "",
-        label: "in production",
-        handle: "Pizzeria",
     },
 ];
 
@@ -70,7 +70,7 @@ export default function posts() {
                             </span>{" "}
                             <div className="z-10 flex flex-col items-center">
                                 <span className="mt-8 lg:mt-12 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display">
-                                    {"gonot-nicolas.com"}
+                                    {"G-Corp.com"}
                                 </span>
                                 <span className="mt-4 mb-8 lg:mt-16 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
                                     {"in production"}
