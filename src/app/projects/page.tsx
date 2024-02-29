@@ -15,13 +15,13 @@ const prod = [
     //     label: "Steam",
     //     handle: "Skuall",
     // },
-    {
-        id: " Realtime BPM Analyzer ",
-        icon: <Laptop2 size={20} />,
-        href: "",
-        label: "in production",
-        handle: "Realtime BPM Analyzer",
-    },
+    // {
+    //     id: " Realtime BPM Analyzer ",
+    //     icon: <Laptop2 size={20} />,
+    //     href: "",
+    //     label: "in production",
+    //     handle: "Realtime BPM Analyzer",
+    // },
     {
         id: "L'atelier de Nathalie",
         icon: <Laptop2 size={20} />,

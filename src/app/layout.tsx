@@ -42,7 +42,34 @@ export default function RootLayout({
                 />
                 <meta
                     name="keywords"
-                    content="Web Development, Développeur web, Portfolio, Freelance, indépendant, Web, Website, Siteweb, Gonot Nicolas, Nicolas Gonot, Gonot, Nicolas, HTML, CSS, Javascript, Typescript, Bootstrap, Tailwind, Symfony, Jquerry, PHP, "
+                    content="
+                        Web Development, 
+                        Développeur web, 
+                        Portfolio, 
+                        Freelance, 
+                        
+                        Indépendant, 
+                        Web, 
+                        Website, 
+                        Siteweb,
+
+                        Gonot Nicolas,
+                        gonot nicolas,
+                        Nicolas Gonot, 
+                        nicolas gonot,
+                        gonot-nicolas,
+                        nicolas-gonot, 
+                        
+                        HTML, 
+                        CSS, 
+                        Javascript, 
+                        Typescript, 
+                        Bootstrap, 
+                        Tailwind, 
+                        Symfony, 
+                        Jquerry, 
+                        PHP, 
+                    "
                 />
                 <meta name="robots" content="index, follow" />
             </head>
