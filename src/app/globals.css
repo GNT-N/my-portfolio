@@ -106,14 +106,15 @@ body {
 
 .carousel {
     border-radius: 20px;
-    width: auto !important;
     height: 700px !important;
+    overflow: hidden !important;
 }
 
 .carousel-img {
     border-radius: 20px;
-    /* width: 400px !important;
-    height: auto; */
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
 }
 
 .centered-label {
