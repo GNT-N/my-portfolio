@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 
 const listItems = [
-    "Rigueur",
-    "Autonomie",
-    "Travail d'équipe",
-    "Sens de l'écoute",
-    "Forte résistance au stress",
-    "Grande capacité d'adaptation",
+    "Rigor",
+    "Autonomy",
+    "Teamwork",
+    "Listening skills",
+    "High stress tolerance",
+    "Great adaptability",
 ];
 
 const SkillText = () => {

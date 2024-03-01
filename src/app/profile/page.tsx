@@ -8,6 +8,7 @@ import CarouselTexte from "../components/carousel_text";
 export default function posts() {
     const { t } = useTranslation("en", { useSuspense: false });
     const profileDescriptionHTML = { __html: t("profile.Description") };
+    const profileTitleHTML = { __html: t("profile.Title") };
     return (
         <div className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 text-center ">
             <Navigation />
@@ -44,7 +45,7 @@ export default function posts() {
                 <div className="w-full h-px bg-zinc-800" />
 
                 <h2 className="mt-5 text-center font-bold text-lg text-zinc-100">
-                    Centres d'interrêts
+                    {t("profile.Title")}
                 </h2>
                 <div
                     style={{
