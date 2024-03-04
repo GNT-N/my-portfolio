@@ -2,6 +2,23 @@
 import React, { useEffect, useRef } from "react";
 import { Navigation } from "../components/nav";
 import Grid_logos from "../components/grid_logos";
+import i18n from "i18next";
+import Backend from "i18next-http-backend";
+import { initReactI18next, useTranslation } from "react-i18next";
+
+i18n.use(initReactI18next)
+    .use(Backend)
+    .init({
+        backend: {
+            loadPath: "/translation/{{ lng }}/translation.json",
+        },
+        lng: "en",
+        fallbackLng: ["en", "fr", "vn"],
+    });
+
+const changeLanguage = (selectedLang: string | undefined) => {
+    i18n.changeLanguage(selectedLang);
+};
 
 const logos = [
     "html5",
@@ -48,6 +65,8 @@ export default function Skills() {
         }
     }, []);
 
+    const { t } = useTranslation("en", { useSuspense: false });
+
     return (
         <div className="skills_page bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
             <Navigation />
@@ -55,8 +74,8 @@ export default function Skills() {
                 <Grid_logos logos={logos} skillBarsRef={skillBarsRef} />
                 <div className="skills-bars">
                     <div>
-                        <p className="text-center text-zinc-400">
-                            <b>Languages</b>
+                        <p className="text-center text-white text-3xl">
+                            <b>{t("skills.Title_Languages")}</b>
                         </p>
                         <div className="skill-bar">
                             <div
@@ -114,8 +133,8 @@ export default function Skills() {
                                 Typescript
                             </div>
                         </div>
-                        <p className="text-center text-zinc-400 mt-5">
-                            <b>Frameworks</b>
+                        <p className="text-center text-white text-3xl mt-5">
+                            <b>{t("skills.Title_Frameworks")}</b>
                         </p>
                         <div className="skill-bar">
                             <div

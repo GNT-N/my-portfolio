@@ -41,5 +41,10 @@
             "Title": "« La Clunysoise » project management.",
             "Description": "Complete management of the company's website creation project including the creation & drafting of contracts, specifications and other legal documents as well as taking photos and writing the various contents of the website for « turnkey » delivery of the project.<br/><br/> Technology : - Github - Vercel - Trello - Google Drive - Google Meet - Google Doc"
         }
+    },
+
+    "skills": {
+        "Title_Languages": "Languages",
+        "Title_Frameworks": "Frameworks"
     }
 }

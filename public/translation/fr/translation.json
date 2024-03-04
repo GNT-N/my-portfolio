@@ -41,5 +41,10 @@
             "Title": "Gestion du projet « La Clunysoise ».",
             "Description": "Gestion complète du projet de création de site internet de l'entreprise incluant la création & la rédaction des contrats, cahiers des charges et autres documents légaux ainsi que la prise de photos et la rédaction des différents contenus du site internet pour une livraison « clé en main » du projet.<br/><br/> Technologie : - Github - Vercel - Trello - Google Drive - Google Meet - Google Doc"
         }
+    },
+
+    "skills": {
+        "Title_Languages": "Languages",
+        "Title_Frameworks": "Frameworks"
     }
 }

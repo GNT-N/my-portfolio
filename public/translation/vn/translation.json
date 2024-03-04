@@ -40,5 +40,10 @@
             "Title": "Quản lý dự án « La Clunysoise ».",
             "Description": "Quản lý hoàn chỉnh dự án tạo trang web của công ty bao gồm việc tạo và soạn thảo hợp đồng, thông số kỹ thuật và các văn bản pháp lý khác cũng như chụp ảnh và viết các nội dung khác nhau của trang web để bàn giao dự án « chìa khóa trao tay ».<br/><br/> Công nghệ : - Github - Vercel - Trello - Google Drive - Google Meet - Google Doc"
         }
+    },
+
+    "skills": {
+        "Title_Languages": "Ngôn ngữ",
+        "Title_Frameworks": "Khung làm việc"
     }
 }
