@@ -29,7 +29,6 @@ const fade = () => (
                 src="/images/china2.jpg"
                 alt="images 3"
             />
-            {/* <div className="centered-label">Hobbies</div> */}
         </div>
 
         <div style={{ position: "relative" }}>
@@ -38,7 +37,6 @@ const fade = () => (
                 src="/images/china3.jpg"
                 alt="images 4"
             />
-            {/* <div className="centered-label">Label 4</div> */}
         </div>
 
         <div style={{ position: "relative" }}>
@@ -47,7 +45,6 @@ const fade = () => (
                 src="/images/Vietnam4.jpg"
                 alt="Vietnam image"
             />
-            {/* <div className="centered-label">Hobbies</div> */}
         </div>
 
         <div style={{ position: "relative" }}>
@@ -56,7 +53,6 @@ const fade = () => (
                 src="/images/Vietnam5.jpg"
                 alt="Vietnam image"
             />
-            {/* <div className="centered-label">Hobbies</div> */}
         </div>
 
         <div style={{ position: "relative" }}>
@@ -65,7 +61,6 @@ const fade = () => (
                 src="/images/Vietnam6.jpg"
                 alt="Vietnam image"
             />
-            {/* <div className="centered-label">Hobbies</div> */}
         </div>
 
         <div style={{ position: "relative" }}>
@@ -74,7 +69,6 @@ const fade = () => (
                 src="/images/Vietnam8.jpg"
                 alt="Vietnam image"
             />
-            {/* <div className="centered-label">Hobbies</div> */}
         </div>
 
         <div style={{ position: "relative" }}>
@@ -83,16 +77,14 @@ const fade = () => (
                 src="/images/Vietnam9.jpg"
                 alt="Vietnam image"
             />
-            {/* <div className="centered-label">Hobbies</div> */}
         </div>
 
         <div style={{ position: "relative" }}>
             <img
                 className="carousel-img"
-                src="/images/Boudah.jpg"
-                alt="images 3"
+                src="/images/Bouddha.jpg"
+                alt="Bouddha"
             />
-            {/* <div className="centered-label">Hobbies</div> */}
         </div>
 
         <div style={{ position: "relative" }}>
@@ -101,7 +93,6 @@ const fade = () => (
                 src="/images/Tiger.jpg"
                 alt="images 3"
             />
-            {/* <div className="centered-label">Hobbies</div> */}
         </div>
 
         <div style={{ position: "relative" }}>
@@ -110,7 +101,6 @@ const fade = () => (
                 src="/images/Plovdiv1.jpg"
                 alt="Plovdiv image"
             />
-            {/* <div className="centered-label">Hobbies</div> */}
         </div>
 
         <div style={{ position: "relative" }}>
@@ -119,7 +109,6 @@ const fade = () => (
                 src="/images/Plovdiv2.jpg"
                 alt="Plovdiv image"
             />
-            {/* <div className="centered-label">Hobbies</div> */}
         </div>
 
         {/* ---------------------------------------------------------------------------------------- */}
@@ -127,8 +116,8 @@ const fade = () => (
         <div style={{ position: "relative" }}>
             <img
                 className="carousel-img"
-                src="/images/china2.jpg"
-                alt="images 3"
+                src="/images/NY.jpg"
+                alt="New York image"
             />
             <div className="centered-label">Hobbies</div>
         </div>
@@ -139,7 +128,14 @@ const fade = () => (
                 src="/images/Turntable2.jpg"
                 alt="Turntable image"
             />
-            {/* <div className="centered-label">Label 4</div> */}
+        </div>
+
+        <div style={{ position: "relative" }}>
+            <img
+                className="carousel-img"
+                src="/images/Saxo.jpg"
+                alt="Saxophone image"
+            />
         </div>
 
         <div style={{ position: "relative" }}>
@@ -148,7 +144,6 @@ const fade = () => (
                 src="/images/Tattoo.jpg"
                 alt="Tattoo image"
             />
-            {/* <div className="centered-label">Label 4</div> */}
         </div>
 
         <div style={{ position: "relative" }}>
@@ -157,7 +152,6 @@ const fade = () => (
                 src="/images/BMWS3.jpg"
                 alt="BMW image"
             />
-            {/* <div className="centered-label">Label 4</div> */}
         </div>
 
         <div style={{ position: "relative" }}>
@@ -166,7 +160,6 @@ const fade = () => (
                 src="/images/S1000RR.jpg"
                 alt="Moto image"
             />
-            {/* <div className="centered-label">Label 4</div> */}
         </div>
 
         {/* ---------------------------------------------------------------------------------------- */}
@@ -186,7 +179,6 @@ const fade = () => (
                 src="/images/Fallout.jpg"
                 alt="Fallout images"
             />
-            {/* <div className="centered-label">Label 4</div> */}
         </div>
 
         <div style={{ position: "relative" }}>
@@ -195,7 +187,6 @@ const fade = () => (
                 src="/images/Cyberpunk2077.jpg"
                 alt="Cyberpunk2077 images"
             />
-            {/* <div className="centered-label">Label 4</div> */}
         </div>
 
         <div style={{ position: "relative" }}>
@@ -204,7 +195,6 @@ const fade = () => (
                 src="/images/Warzone.jpg"
                 alt="Warzone images"
             />
-            {/* <div className="centered-label">Label 4</div> */}
         </div>
 
         {/* ---------------------------------------------------------------------------------------- */}
