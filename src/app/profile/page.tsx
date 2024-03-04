@@ -50,7 +50,7 @@ export default function posts() {
                 <div
                     style={{
                         position: "relative",
-                        maxWidth: "1200px",
+                        // maxWidth: "1200px",
                         margin: "1 auto",
                         zIndex: 2,
                     }}
