@@ -167,7 +167,7 @@ const fade = () => (
         <div style={{ position: "relative" }}>
             <img
                 className="carousel-img"
-                src="/images/Gamer.jpg"
+                src="/images/Gaming.jpg"
                 alt="Gaming"
             />
             <div className="centered-label">Gaming</div>
