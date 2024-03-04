@@ -33,6 +33,23 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
+                {/* Google Analytics */}
+                <script
+                    async
+                    src="https://www.googletagmanager.com/gtag/js?id=G-5PG59341DB"
+                ></script>
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-5PG59341DB');
+          `,
+                    }}
+                />
+                {/* Fin de Google Analytics */}
                 <meta name="description" content={metadata.description ?? ""} />
                 <meta name="author" content="Gonot Nicolas" />
                 <link rel="canonical" href="gonot-nicolas.com" />
