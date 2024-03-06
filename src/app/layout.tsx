@@ -33,6 +33,20 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
+                {/* Google Tag Manager */}
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                            })(window,document,'script','dataLayer','GTM-KDHLKKWH');
+                        `,
+                    }}
+                />
+                {/* End Google Tag Manager */}
+
                 {/* Google Analytics */}
                 <script
                     async
@@ -41,15 +55,15 @@ export default function RootLayout({
                 <script
                     dangerouslySetInnerHTML={{
                         __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-5PG59341DB');
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+                            gtag('config', 'G-5PG59341DB');
           `,
                     }}
                 />
                 {/* Fin de Google Analytics */}
+
                 <meta name="description" content={metadata.description ?? ""} />
                 <meta name="author" content="Gonot Nicolas" />
                 <link rel="canonical" href="gonot-nicolas.com" />
@@ -90,7 +104,19 @@ export default function RootLayout({
                 />
                 <meta name="robots" content="index, follow" />
             </head>
-            <body className={inter.className}>{children}</body>
+            <body className={inter.className}>
+                {/* Google Tag Manager (noscript) */}
+                <noscript>
+                    <iframe
+                        src="https://www.googletagmanager.com/ns.html?id=GTM-KDHLKKWH"
+                        height="0"
+                        width="0"
+                        style={{ display: "none", visibility: "hidden" }}
+                    ></iframe>
+                </noscript>
+                {/* End Google Tag Manager (noscript) */}
+                {children}
+            </body>
         </html>
     );
 }
