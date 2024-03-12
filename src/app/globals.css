@@ -135,6 +135,10 @@ body {
 /* Mobile Screen */
 
 @media (max-width: 900px) {
+    .carousel {
+        height: auto !important;
+    }
+
     .skill-bar {
         width: 330px;
         height: 25px;

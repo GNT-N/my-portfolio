@@ -79,13 +79,13 @@ const fade = () => (
             />
         </div>
 
-        <div style={{ position: "relative" }}>
+        {/* <div style={{ position: "relative" }}>
             <img
                 className="carousel-img"
                 src="/images/Bouddha.jpg"
                 alt="Bouddha"
             />
-        </div>
+        </div> */}
 
         <div style={{ position: "relative" }}>
             <img
