@@ -64,6 +64,7 @@ export default function RootLayout({
                 />
                 {/* Fin de Google Analytics */}
 
+                <meta property="og:image" content="favicon.png" />
                 <meta name="description" content={metadata.description ?? ""} />
                 <meta name="author" content="Gonot Nicolas" />
                 <link rel="canonical" href="gonot-nicolas.com" />
