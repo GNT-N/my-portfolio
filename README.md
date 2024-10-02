@@ -1,12 +1,126 @@
-Open [http://localhost:3000](http://localhost:3000)
+# Portfolio
 
-## Learn More
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Description 
+"This portfolio was designed to create a modern and responsive showcase, as well as to put my skills in Next.js, Tailwind CSS, and TypeScript into practice."
 
-## Deploy on Vercel
+## Installation 
+```bash
+npm install
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm install @next/mdx
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+npm install @types/node
+```
+
+```bash
+npm install @types/react
+```
+
+```bash
+npm install @types/react-dom
+```
+
+```bash
+npm install @upstash/redis
+```
+
+```bash
+npm install alpinejs
+```
+
+```bash
+npm install framer-motion
+```
+
+```bash
+npm install i18next
+```
+
+```bash
+npm install i18next-http-backend
+```
+
+```bash
+npm install jquery
+```
+
+```bash
+npm install lucide-react
+```
+
+```bash
+npm install markdown-wasm
+```
+
+```bash
+npm install next-contentlayer
+```
+
+
+```bash
+npm install react-ga
+```
+
+
+```bash
+npm install react-i18next
+```
+
+
+```bash
+npm install react-intersection-observer
+```
+
+
+```bash
+npm install react-responsive-carousel
+```
+
+
+```bash
+npm install react-transition-group
+```
+
+
+```bash
+npm install react-wrap-balancer
+```
+
+
+```bash
+npm install rehype-autolink-headings
+```
+
+
+```bash
+npm install rehype-pretty-code
+
+```
+
+```bash
+npm install rehype-slug
+```
+
+
+```bash
+npm install remark-gfm
+```
+
+
+```bash
+npm install tw-elements
+```
+
+
+```bash
+npm install zod
+```
+
+```bash
+npm run dev
+```
