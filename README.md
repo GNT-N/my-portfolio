@@ -124,3 +124,6 @@ npm install zod
 ```bash
 npm run dev
 ```
+-----
+> [!NOTE]
+> This project is under development, and bugs as well as changes may occur.
